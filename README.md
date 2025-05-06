@@ -46,7 +46,7 @@ Car Rental System
 - app.py: Flask backend for handling car rental logic.
 
 ## 4. Running the Projects
-Travel Recommender:
+## Travel Recommender:
 Navigate to the folder:
 ```bash
 cd travelRecommender
@@ -59,7 +59,7 @@ Access at:
 ```bash
 http://localhost:5000
 ```
-Car Rental System:
+## Car Rental System:
 Navigate to the folder:
 ```bash
 cd car_rental_system
