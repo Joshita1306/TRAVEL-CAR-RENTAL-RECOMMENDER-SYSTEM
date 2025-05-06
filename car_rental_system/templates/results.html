@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Cars</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), 
+                        url('https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        .header-info {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            color: #2c3e50;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .header-info h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            color: #3498db;
+        }
+        .car-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+            gap: 25px; 
+        }
+        .car-card { 
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+        .car-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+        }
+        .car-card h3 { 
+            color: #3498db;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .car-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .car-features span {
+            background: #e1f0fa;
+            color: #2980b9;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .btn { 
+            display: inline-block;
+            padding: 12px 25px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            border: 2px solid #3498db;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .btn:hover {
+            background: transparent;
+            color: #3498db;
+        }
+        .show-more {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .show-more .btn {
+            background: rgba(255, 255, 255, 0.9);
+            color: #3498db;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+        }
+        .show-more .btn:hover {
+            background: #3498db;
+            color: white;
+        }
+        .rental-period {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            color: #7f8c8d;
+        }
+        @media (max-width: 768px) {
+            .car-grid {
+                grid-template-columns: 1fr;
+            }
+            .header-info h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-info">
+            <h1>Available Cars for {{ destination }}</h1>
+            <p class="rental-period"><strong>Rental Period:</strong> {{ pickup_date }} to {{ return_date }}</p>
+        </div>
+        
+        <div class="car-grid">
+            {% for car in cars %}
+            <div class="car-card">
+                <h3>{{ car.name }}</h3>
+                <div class="car-features">
+                    <span>Type: {{ car.type }}</span>
+                    <span>Seats: {{ car.seats }}</span>
+                    <span>${{ car.price }}/day</span>
+                </div>
+                <a href="{{ url_for('car_details', car_id=car.id) }}?pickup_date={{ pickup_date }}&return_date={{ return_date }}&rental_purpose={{ rental_purpose }}" class="btn">View Details</a>
+            </div>
+            {% endfor %}
+        </div>
+        
+        {% if more_available %}
+        <div class="show-more">
+            <form action="/show_more" method="POST">
+                <input type="hidden" name="email" value="{{ email }}">
+                <input type="hidden" name="destination" value="{{ destination }}">
+                <input type="hidden" name="pickup_date" value="{{ pickup_date }}">
+                <input type="hidden" name="return_date" value="{{ return_date }}">
+                <input type="hidden" name="rental_purpose" value="{{ rental_purpose }}">
+                <button type="submit" class="btn">Show More Cars ({{ remaining_cars }} available)</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

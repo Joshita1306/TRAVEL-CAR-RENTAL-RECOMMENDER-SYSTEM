@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ car.name }} | Details</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)),
+                        url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .car-details {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        h1 {
+            color: #3498db;
+            margin-top: 0;
+            font-size: 2.2rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 25px;
+        }
+        .detail-row {
+            display: flex;
+            margin: 20px 0;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(52, 152, 219, 0.2);
+            align-items: center;
+        }
+        .detail-label {
+            width: 200px;
+            font-weight: 600;
+            color: #3498db;
+            font-size: 1.1rem;
+        }
+        .detail-value {
+            font-size: 1.1rem;
+        }
+        .price-summary {
+            background: rgba(52, 152, 219, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 35px 0;
+            border: 1px solid rgba(52, 152, 219, 0.2);
+        }
+        .price-summary h3 {
+            color: #3498db;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: 2px solid #3498db;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(41, 128, 185, 0.4);
+        }
+        .highlight {
+            color: #e74c3c;
+            font-weight: 700;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+            }
+            .detail-row {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .detail-label {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="car-details">
+            <h1>{{ car.name }}</h1>
+            
+            <div class="detail-row">
+                <div class="detail-label">Car Type:</div>
+                <div class="detail-value">{{ car.type }}</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="detail-label">Seating Capacity:</div>
+                <div class="detail-value">{{ car.seats }} passengers</div>
+            </div>
+            
+            <div class="detail-row">
+                <div class="detail-label">Daily Rate:</div>
+                <div class="detail-value">${{ car.price }}/day</div>
+            </div>
+            
+            <div class="price-summary">
+                <h3>Rental Summary</h3>
+                <div class="detail-row">
+                    <div class="detail-label">Rental Period:</div>
+                    <div class="detail-value">{{ rental_days }} day(s) ({{ pickup_date }} to {{ return_date }})</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Base Price:</div>
+                    <div class="detail-value">${{ car.price * rental_days }}</div>
+                </div>
+                <div class="detail-row">
+                    <div class="detail-label">Rental Purpose:</div>
+                    <div class="detail-value">{{ rental_purpose|capitalize }}</div>
+                </div>
+                <div class="detail-row" style="border-bottom: none;">
+                    <div class="detail-label"><strong>Total Estimated Cost:</strong></div>
+                    <div class="detail-value highlight">${{ total_cost }}</div>
+                </div>
+            </div>
+            
+            <form action="/confirm_booking" method="POST">
+                <input type="hidden" name="car_id" value="{{ car.id }}">
+                <input type="hidden" name="total_cost" value="{{ total_cost }}">
+                <input type="hidden" name="rental_days" value="{{ rental_days }}">
+                <input type="hidden" name="pickup_date" value="{{ pickup_date }}">
+                <input type="hidden" name="return_date" value="{{ return_date }}">
+                <input type="hidden" name="rental_purpose" value="{{ rental_purpose }}">
+                <button type="submit" class="btn">Confirm Booking Now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
