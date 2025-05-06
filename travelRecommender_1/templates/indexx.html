@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Plan your perfect vacation with our personalized travel recommendations. Find hotels, attractions, and dining options tailored to your preferences.">
+    <meta name="keywords" content="travel, vacation, trip planner, hotel booking, attractions, restaurant recommendations, car rental">
+    <meta name="author" content="Travel Experts Inc.">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2776/2776067.png" type="image/x-icon">
+    <title>TravelGenius | Personalized Vacation Planning Tool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&family=Montserrat:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f8ff;
+            color: #333;
+            background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .form-container, .tips-container {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            flex: 1;
+            min-width: 300px;
+        }
+        .form-container {
+            flex: 2;
+        }
+        .main-title {
+            font-family: 'Montserrat', sans-serif;
+            color: #2c3e50;
+            text-align: center;
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+        }
+        .tagline {
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+            color: #3498db;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #3498db;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            background-color: rgba(255,255,255,0.8);
+        }
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            min-width: 150px;
+        }
+        input[type="checkbox"] {
+            margin-right: 8px;
+        }
+        .budget-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .budget-option {
+            display: flex;
+            align-items: center;
+        }
+        .preference-group-title {
+            color: #2c3e50;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .travel-tips {
+            margin-top: 0;
+            padding-top: 0;
+        }
+        .tip-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: rgba(248, 249, 250, 0.8);
+            border-radius: 5px;
+        }
+        .tip-title {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            width: 100%;
+        }
+        .footer-links {
+            margin-bottom: 15px;
+        }
+        .footer-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        .copyright {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .cuisine-checkboxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .cuisine-checkbox {
+            background: rgba(52, 152, 219, 0.1);
+            padding: 8px 12px;
+            border-radius: 20px;
+            border: 1px solid #3498db;
+        }
+        .cuisine-checkbox input {
+            margin-right: 5px;
+        }
+        
+        /* Enhanced Car Rental Section Styles */
+        .car-rental-card {
+            background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(155, 89, 182, 0.1) 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 30px 0;
+            border: 1px solid rgba(52, 152, 219, 0.3);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .car-rental-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+            border-color: rgba(52, 152, 219, 0.5);
+        }
+        
+        .car-rental-card::before {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 70%);
+            transform: rotate(30deg);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        
+        .car-rental-card:hover::before {
+            opacity: 0.6;
+        }
+        
+        .car-icon {
+            font-size: 3rem;
+            color: #3498db;
+            margin-bottom: 15px;
+            text-align: center;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .car-rental-title {
+            font-family: 'Montserrat', sans-serif;
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        
+        .car-rental-text {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .car-rental-btn {
+            display: block;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            color: white;
+            text-align: center;
+            padding: 15px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            width: 80%;
+            margin: 0 auto;
+            cursor: pointer;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .car-rental-btn:hover {
+            background: linear-gradient(to right, #2980b9, #1a252f);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(52, 152, 219, 0.4);
+        }
+        
+        .car-rental-btn:active {
+            transform: translateY(1px);
+        }
+        
+        .car-rental-btn::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -60%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255,255,255,0.2);
+            transform: rotate(30deg);
+            transition: all 0.3s;
+        }
+        
+        .car-rental-btn:hover::after {
+            left: 100%;
+        }
+        
+        .car-rental-btn i {
+            margin-left: 8px;
+            transition: transform 0.3s;
+        }
+        
+        .car-rental-btn:hover i {
+            transform: translateX(5px);
+        }
+        
+        .road-line {
+            height: 3px;
+            background: repeating-linear-gradient(to right, #3498db, #3498db 15px, transparent 15px, transparent 30px);
+            margin: 20px 0;
+            position: relative;
+        }
+        
+        .car-silhouette {
+            position: absolute;
+            width: 50px;
+            height: 25px;
+            background-color: #2c3e50;
+            border-radius: 15px 15px 0 0;
+            bottom: 15px;
+            left: -60px;
+            animation: drive 6s linear infinite;
+        }
+        
+        .car-silhouette::before {
+            content: "";
+            position: absolute;
+            width: 15px;
+            height: 8px;
+            background-color: #3498db;
+            border-radius: 8px;
+            top: -8px;
+            left: 8px;
+            box-shadow: 25px 0 #3498db;
+        }
+        
+        .car-silhouette::after {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            top: 5px;
+            left: 10px;
+            box-shadow: 25px 0 #fff;
+        }
+        
+        @keyframes drive {
+            0% { left: -60px; }
+            100% { left: calc(100% + 60px); }
+        }
+        
+        .car-features {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        
+        .car-feature {
+            text-align: center;
+            padding: 10px;
+            flex: 1;
+            min-width: 100px;
+        }
+        
+        .car-feature i {
+            font-size: 1.5rem;
+            color: #3498db;
+            margin-bottom: 8px;
+        }
+        
+        .car-feature span {
+            display: block;
+            font-size: 0.9rem;
+            color: #555;
+        }
+/* Featured Destinations Styles */
+.featured-destinations {
+    margin: 25px 0;
+}
+
+.destination-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+
+.destination-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.destination-info {
+    padding: 15px;
+}
+
+.destination-info h4 {
+    margin: 0 0 8px 0;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.destination-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+.checkbox-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .checkbox-group label {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-title">Dream. Plan. Explore.</h1>
+        <p class="tagline">Your perfect vacation starts here</p>
+        
+        <div class="form-container">
+	    <h2>🌍 Plan Your Dream Vacation</h2>
+            <form method="POST" action="/results">
+                <div class="form-group">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="start_date">Start Date:</label>
+                    <input type="date" id="start_date" name="start_date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="end_date">End Date:</label>
+                    <input type="date" id="end_date" name="end_date" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget">Total Budget ($):</label>
+                    <input type="number" id="budget" name="budget" min="0" required>
+                </div>
+                
+                <h3 class="section-title">🍽️ Dining Preferences</h3>
+<div class="form-group">
+    <label>Preferred Cuisine:</label>
+    <div class="checkbox-group">
+        <label><input type="checkbox" name="cuisine_type" value="italian"> Italian</label>
+        <label><input type="checkbox" name="cuisine_type" value="mexican"> Mexican</label>
+        <label><input type="checkbox" name="cuisine_type" value="indian"> Indian</label>
+        <label><input type="checkbox" name="cuisine_type" value="chinese"> Chinese</label>
+        <label><input type="checkbox" name="cuisine_type" value="japanese"> Japanese</label>
+        <label><input type="checkbox" name="cuisine_type" value="american"> American</label>
+        <label><input type="checkbox" name="cuisine_type" value="mediterranean"> Mediterranean</label>
+    </div>
+</div>
+                
+                <div class="form-group">
+                    <b><span class="preference-group-title">Price Range:</span></b>
+                    <div class="budget-options">
+                        <div class="budget-option">
+                            <input type="radio" id="budget-1" name="dining_budget" value="$">
+                            <label for="budget-1">$</label>
+                        </div>
+                        <div class="budget-option">
+                            <input type="radio" id="budget-2" name="dining_budget" value="$$" checked>
+                            <label for="budget-2">$$</label>
+                        </div>
+                        <div class="budget-option">
+                            <input type="radio" id="budget-3" name="dining_budget" value="$$$">
+                            <label for="budget-3">$$$</label>
+                        </div>
+                        <div class="budget-option">
+                            <input type="radio" id="budget-4" name="dining_budget" value="$$$$">
+                            <label for="budget-4">$$$$</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <b><span class="preference-group-title">Dietary Restrictions:</span></b>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Gluten-Free" id="Gluten-Free">
+                            <label for="Gluten-Free">Gluten-Free</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Dairy-Free" id="Dairy-Free">
+                            <label for="Dairy-Free">Dairy-Free</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Vegan" id="Vegan">
+                            <label for="Vegan">Vegan</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Vegetarian" id="Vegetarian">
+                            <label for="Vegetarian">Vegetarian</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Kosher" id="Kosher">
+                            <label for="Kosher">Kosher</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Halal" id="Halal">
+                            <label for="Halal">Halal</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" name="dietary[]" value="Nut-Free" id="Nut-Free">
+                            <label for="Nut-Free">Nut-Free</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <h3 class="section-title">🏨 Accommodation Preferences</h3>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="amenities[]" value="Family Room" id="family-room">
+                        <label for="family-room">Family Room</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="amenities[]" value="Wi-Fi" id="wifi" checked>
+                        <label for="wifi">Wi-Fi</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="amenities[]" value="Gym" id="gym">
+                        <label for="gym">Fitness Center</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="amenities[]" value="Spa" id="spa">
+                        <label for="spa">Spa</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="amenities[]" value="Pool" id="pool">
+                        <label for="pool">Swimming Pool</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="amenities[]" value="Parking" id="parking">
+                        <label for="parking">Free Parking</label>
+                    </div>
+                </div>
+                
+                <h3 class="section-title">🗺️ Activities & Attractions</h3>
+                <div class="checkbox-group">
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="activities[]" value="tours_&_sightseeing" id="sightseeing" checked>
+                        <label for="sightseeing">Tours & Sightseeing</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="activities[]" value="family_friendly" id="family">
+                        <label for="family">Family Friendly</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="activities[]" value="food,_wine_&_nightlife" id="nightlife">
+                        <label for="nightlife">Food & Nightlife</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="activities[]" value="day_trips_&_excursions" id="excursions">
+                        <label for="excursions">Day Trips</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="activities[]" value="cultural_&_theme_tours" id="cultural">
+                        <label for="cultural">Cultural Tours</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" name="activities[]" value="adventure" id="adventure">
+                        <label for="adventure">Adventure</label>
+                    </div>
+                </div>
+		
+		<button type="submit">Get My Travel Recommendations →</button>
+                
+                <!-- Enhanced Car Rental Section -->
+                <div class="car-rental-card">
+                    <div class="car-icon">
+                        <i class="fas fa-car-side"></i>
+                    </div>
+                    <h3 class="car-rental-title">Need a Ride for Your Adventure?</h3>
+                    <p class="car-rental-text">Discover the perfect vehicle for your journey with our exclusive car rental deals. Book directly for the best rates.</p>
+                    
+                    <div class="car-features">
+                        <div class="car-feature">
+                            <i class="fas fa-car"></i>
+                            <span>All Vehicle Types</span>
+                        </div>
+                        <div class="car-feature">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Best Price Guarantee</span>
+                        </div>
+                        <div class="car-feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Full Coverage</span>
+                        </div>
+                    </div>
+                    
+                    <div class="road-line"></div>
+                    <div class="car-silhouette"></div>
+                    <a href="http://127.0.0.1:5001/" class="car-rental-btn">
+                        Find Your Perfect Car <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+            </form>
+        </div>
+
+        <div class="tips-container">
+    <div class="travel-tips">
+        <h2 class="section-title">✈️ Travel Tips & Advice</h2>
+        
+        <div class="tip-item">
+            <div class="tip-title">Packing Essentials</div>
+            <p>Always pack medications in your carry-on, bring versatile clothing, and don't forget universal adapters for electronics.</p>
+        </div>
+        
+        <div class="tip-item">
+            <div class="tip-title">Money Saving Tips</div>
+            <p>Travel during shoulder seasons (just before/after peak) for lower prices and fewer crowds while still enjoying good weather.</p>
+        </div>
+        <div class="tip-item">
+            <div class="tip-title">Local Experiences</div>
+            <p>Try authentic local food markets instead of tourist restaurants for better prices and more genuine cultural experiences.</p>
+        </div>
+        
+        <div class="tip-item">
+            <div class="tip-title">Safety Advice</div>
+            <p>Photograph your passport and important documents, and email copies to yourself as backup in case of loss or theft.</p>
+        </div>
+        
+        <div class="tip-item">
+            <div class="tip-title">Family Travel</div>
+            <p>Pack a small first-aid kit and favorite snacks. Schedule downtime between activities when traveling with children.</p>
+        </div>		
+        
+        <!-- Featured Destinations Section -->
+        <div class="featured-destinations">
+            <h3 class="section-title">🌟 Featured US Destinations</h3>
+            
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="San Francisco" class="destination-image">
+                <div class="destination-info">
+                    <h4>San Francisco, CA</h4>
+                    <p>Iconic Golden Gate Bridge, Alcatraz, and vibrant neighborhoods. <b>Best visited April-June</b>.</p>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25" alt="New York City" class="destination-image">
+                <div class="destination-info">
+                    <h4>New York City, NY</h4>
+                    <p>The city that never sleeps - Times Square, Central Park, and Broadway shows.<b>Best visited April-June</b> or <b>September–November</b></p>
+                </div>
+            </div>
+            
+            <div class="destination-card">
+                <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b" alt="Sedona" class="destination-image">
+                <div class="destination-info">
+                    <h4>Sedona, AZ</h4>
+                    <p>Stunning red rock formations and spiritual retreats. Perfect for outdoor lovers.<b>Best visited March–May</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- End Featured Destinations -->
+        
+    </div>
+</div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Help Center</a>
+            </div>
+            
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+                        
+            <p class="copyright">© 2025 TravelGenius. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</body>
+</html>

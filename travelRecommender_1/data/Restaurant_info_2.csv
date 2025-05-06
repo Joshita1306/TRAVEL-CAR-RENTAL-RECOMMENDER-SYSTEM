@@ -1,0 +1,1169 @@
+Name,location,Type,Reviews,Dietary Type,Price_Range
+The Capital Grille,"Madison,Alabama","American, Steakhouse ",4.5,"Gluten-Free, Nut-Free    ",$$$
+Red Sushi,"Madison,Alabama",Japanese,4.6,"Vegan, Gluten-Free       ",$$
+The Old Fashioned,"Madison,Alabama","American, Pub ",4.7,"Vegetarian, Vegan          ",$$
+Osteria Papavero,"Madison,Alabama","Italian, Mediterranean",4.8,Vegetarian,$$$
+Ahan,"Madison,Alabama","Asian ,Thai",4.7,"Vegan, Gluten-Free ,Halal",$$
+Nostrano,"Madison,Alabama","Italian, European ",4.6,"Vegetarian, Gluten-Free    ",$$$
+Tom Brown's Restaurant,Alabama,"American, Steakhouse ",4.5,"Gluten-Free, Nut-Free",$
+Main Street Cafe ,Alabama,Mexican,4.5,"Dairy-Free, Kosher",$
+Metro Diner ,Alabama,American,4.1,Kosher,$$
+Waffle House  ,Alabama,American,4.5,Vegan,$$
+Big Bad Breakfast,Alabama,American,4.5,"Halal,Vegan",$$
+Champy's Fried Chicken,Alabama,Mexican,4.5,Halal,$$
+J. Alexander's    ,Alabama,"American, Steakhouse ",4,"Gluten-Free, Nut-Free",$$
+SaZa Serious Italian,Alabama,Italian,4.5,"Gluten-Free, Nut-Free",$$
+Prohibition ,Alabama,"American, Bar",4.5,"Gluten-Free, Nut-Free",$$$
+Super Chix ,Alabama,Mexican,4.3,"Gluten-Free, Nut-Free",$$$
+I Love Sushi Express   ,Alabama,Japanese,4,Kosher,$$$
+Moe's Southwest Grill ,Alabama,Mexican,4,Vegetarian,$$$
+IHOP  ,Alabama,American,3.9,"Vegetarian, Vegan          ",$$$
+Outback Steakh,Alabama,"American, Steakhouse ",4,"Vegetarian, Vegan          ",$$
+Mr. Hui's Peacock Express,"Florence,Alabama",Chinese,4.8,Vegan,$$
+YUMM Thai Sushi and Beyond,"Florence,Alabama","Thai, Japanese",4,Gluten-free,$$
+Slim Chickens,"Florence,Alabama",American,4.5,Dairy-free,$$
+Taziki's Mediterranean Cafe,"Florence,Alabama",European,4.1,Dairy-free,$$
+Bo’s Kosher Cafe,"Florence,Alabama",Chinese,4.7,Kosher,$$
+Taj India,"Birmingham,Alabama","Indian,Asian",4.9,"Vegetarian, Vegan          ",$$
+Bay Leaf Modern Indian Cuisine & Bar,"Birmingham,Alabama",Indian,5,Vegan,$$
+Bawarchi Indian Cuisine,"Birmingham,Alabama","Indian,Chinese",5,Gluten-free,$$
+Saffron Indian Kitchen,"Birmingham,Alabama",Indian,5,Dairy-free,$$
+Uru-Swati,"Chicago,Illinois",Indian  ,4.8,"Vegan,Gluten-Free  ",$$  
+Arya Bhavan,Illinois,Indian  ,4.6,"Vegan,Dairy-Free  ",$$  
+Shanghai Inn,Illinois,Chinese  ,4.3,Nut-Free  ,$  
+Lao Sze Chuan ,Illinois,Chinese  ,4.5,Gluten-Free  ,$$  
+Wasabi,Illinois,Japanese  ,4.4,"Vegan,Kosher  ",$$$  
+Sunda New Asian,Illinois,Japanese  ,4.7,Dairy-Free  ,$$$  
+The Purple Pig ,Illinois,Mediterranean  ,4.6,Vegetarian  ,$$  
+Ema  ,Illinois,Mediterranean  ,4.5,"Gluten-Free,Vegan  ",$$  
+RPM Italian  ,Illinois,Italian  ,4.7,Dairy-Free  ,$$$  
+Piccolo Sogno  ,Illinois,Italian  ,4.6,Vegetarian  ,$$  
+The Cheesecake Factory  ,Illinois,American  ,4.2,Nut-Free  ,$$  
+Frontera Grill  ,"Chicago,Illinois",Mexican,4.5,Gluten-Free  ,$$
+Green Leaf Vegan,"Chicago,Illinois",Indian,4.7,Vegan,$$
+Bao Wow,"Chicago,Illinois",Chinese,4.4,"Nut-Free,Halal",$
+Sakura Teppanyaki,"Chicago,Illinois",Japanese,4.6,Gluten-Free,$$$
+Olive Tree Bistro,"Chicago,Illinois",Mediterranean,4.5,Vegetarian,$$
+Pasta Amore,"Chicago,Illinois",Italian,4.3,"Dairy-Free,Halal",$$
+The Burger Joint,"Chicago,Illinois","American,Chinese",4.2,Nut-Free,$
+Taco Fiesta,"Chicago,Illinois",Mexican,4.1,"Vegetarian,Halal",$
+Prairie Earth Café,Springfield,"American,European",4.3,Gluten-Free,$$
+State House Eats,Springfield,"American,Chinese",4,Vegetarian,$
+Lincoln's Table,Springfield,American,4.2,"Vegan,Halal",$
+Route 66 Diner,Springfield,"American,European,Chinese",4.1,Nut-Free,$$
+The Illinois Steakhouse,Springfield,"American,Italian",4.4,Halal,$$
+Spice Nation,Springfield,Indian,4.5,Vegan & Gluten-Free,$
+Dragon Palace,Illinois,Chinese,4.3,Dairy-Free,$$$
+Zen Sushi,Illinois,"Japanese,Indian",4.6,"Kosher,Halal",$$
+Aegean Delight,Chicago,Mediterranean,4.4,Vegetarian,$$
+Roma Cucina,Chicago,"Italian,Asian",4.2,Dairy-Free,$$
+Windy City Grill,Chicago,American,4.5,"Gluten-Free,Halal",$$
+Moose's Tooth Pub & Pizzaria,"Anchorage,Alaska",Italian,4.7,"Vegetarian, Vegan",$$
+Snow City Café,"Anchorage,Alaska",American,4.6,Gluten-Free,$$
+Middle Way Café,"Anchorage,Alaska",European,4.5,"Vegan, Vegetarian",$
+Yak & Yeti,"Anchorage,Alaska","Japanese,Asian",4.3,"Halal, Vegetarian",$$
+Organic Oasis,"Anchorage,Alaska","Chinese,Asian",4.4,"Vegan, Gluten-Free",$$
+Tokyo Sushi,"Fairbanks,Alaska","Japanese,Chinese",4.2,"Nut-Free,Kosher",$$$
+Lavelle's Bistro,"Fairbanks,Alaska",Mexican,4.5,Dairy-Free,$$$
+The Crepery,"Fairbanks,Alaska",Mediterranean,4.3,Vegetarian,$
+Pita Place,"Juneau,Alaska",Mexican,4.6,"Halal, Gluten-Free",$$
+Pel'meni,"Juneau,Alaska",Italian,4.4,"Vegetarian,Kosher",$
+Chan's Thai Kitchen,"Anchorage,Alaska","Asian ,Thai",4.1,"Nut-Free, Vegan",$$
+Ray's Place,"Anchorage,Alaska",Indian,4,Gluten-Free,$
+Humpy's Great Alaskan Alehouse,"Anchorage,Alaska","Indian,Asian",4.3,Vegetarian Options,$$
+Ginger,"Anchorage,Alaska","Indian,Asian",4.4,"Vegan, Dairy-Free",$$
+Sakura Sushi,"Fairbanks,Alaska",Japanese,4.2,"Nut-Free, Gluten-Free",$
+Taco King,Alaska,European,4,"Vegetarian,Vegan",$
+Pho Vietnam,"Anchorage,Alaska","Asian ,Thai",4.3,"Gluten-Free,Kosher",$$
+Spenard Roadhouse,"Anchorage,Alaska",American,4.5,"Vegetarian, Vegan",$$
+Tracy's King Crab Shack,"Juneau, Alaska","Mexican, European",4.8,Gluten-Free,$$$
+The Saltry Restaurant,"Homer, Alaska",American,4.7,Vegetarian ,$$$
+The Highliner Coffee,"Sitka, Alaska","American,Italian",4.6,Vegan ,$
+Bubbly Mermaid Oyster Bar,"Anchorage, Alaska","American,Chinese",4.5,Nut-Free,$$$
+Crow's Nest,"Anchorage, Alaska","American,Chinese",4.7,Vegetarian,$$$$
+Fletcher's,"Anchorage, Alaska","Italian, Mediterranean",4.4,Gluten-Free,$$
+Jack Sprat,"Girdwood, Alaska","American, Steakhouse ",4.5,Vegetarian ,$$
+Inlet Tower Restaurant,"Anchorage, Alaska",European,4.2,"Gluten-Free,Kosher",$$
+The Sitzmark Bar & Grill,"Valdez, Alaska","American, Steakhouse ",4.3,Vegetarian ,$$
+The Turtle Club,"Fairbanks, Alaska","American,European,Chinese",4.6,"Gluten-Free,Kosher",$$
+The Pump House,"Fairbanks, Alaska",Mexican,4.5,"Gluten-Free,Kosher",$$
+The Mission Old Town  ,"Scottsdale, Arizona  ",Mexican  ,4.6,"Vegetarian,Gluten-Free  ",$$$  
+Toca Madera  ,"Scottsdale, Arizona  ","Mexican ,Mediterranean",4.5,"Vegetaria,Diary-Free  ",$$$  
+FnB Restaurant  ,"Scottsdale, Arizona  ",American  ,4.7,"Vegetarian, Vegan  ",$$$  
+Pizzeria Bianco  ,"Phoenix, Arizona  ",Italian  ,4.8,Vegetarian  ,$$  
+Cafe Monarch  ,"Scottsdale, Arizona  ",European,4.9,"Gluten-Free,Halal  ",$$$$  
+Binkley's Restaurant  ,"Phoenix, Arizona  ","American,Indian",4.8,"Vegetarian,Vegan  ",$$$$  
+The Gladly  ,"Phoenix, Arizona  ",American  ,4.5,"Vegetarian,Gluten-Free  ",$$$  
+Vecina  ,"Phoenix, Arizona  ",Mexican  ,4.6,"Vegetarian,Diary-Free   ",$$$  
+Citizen Public House  ,"Scottsdale, Arizona  ",American  ,4.7,"Gluten-Free,Vegan  ",$$$  
+Tarbell's  ,"Phoenix, Arizona  ",American  ,4.4,Vegetarian  ,$$$  
+Bourbon Steak  ,"Scottsdale, Arizona  ",Asian,4.6,"Kosher,Halal ",$$$$  
+Lon's at The Hermosa Inn  ,"Paradise Valley, Arizona  ",American  ,4.7,"Vegetarian ,Kosher",$$$$  
+El Chorro  ,"Paradise Valley, Arizona  ",American  ,4.4,"Vegetarian,Gluten-Free  ",$$$  
+Different Pointe of View  ,"Phoenix, Arizona  ","Indian,Asian",4.5,"Vegetarian,Diary-Free   ",$$$$  
+Kai Restaurant  ,"Chandler, Arizona  ",American  ,4.8,Gluten-Free  ,$$$$  
+The Stockyards Restaurant  ,"Phoenix, Arizona  ","American, Steakhouse ",4.3,"Vegan ,Kosher",$$$  
+Durant's  ,"Phoenix, Arizona  ","American, Steakhouse ",4.5,"Vegetarian,Vegan",$$$  
+Rokerij  ,"Phoenix, Arizona  ",Mexican,4.4,Vegetarian  ,$$$  
+T. Cook's  ,"Phoenix, Arizona  ",Mediterranean  ,4.5,"Vegetarian,Gluten-Free  ",$$$  
+The Parlor  ,"Phoenix, Arizona  ",Italian,4.3,"Vegetarian,Nut-Free  ",$$  
+Crescent Ballroom  ,"Phoenix, Arizona  ",American  ,4.2,Vegetarian  ,$$  
+The Henry  ,"Phoenix, Arizona  ",American  ,4.5,"Vegetarian,Gluten-Free  ",$$$  
+Wrigley Mansion  ,"Phoenix, Arizona  ",Chinese,4.7,"Vegetarian,Gluten-Free  ",$$$$  
+Terra Tempe  ,"Tempe, Arizona  ",Japanese,4.4,Vegetarian  ,$$$  
+House of Tricks  ,"Tempe, Arizona  ",American  ,4.6,"Vegetarian,Vegan  ",$$$  
+Cafe Roka  ,"Bisbee, Arizona  ",Japanese,4.5,"Vegetarian,Kosher ",$$$  
+The Coronado  ,"Phoenix, Arizona  ",Vegetarian  ,4.3,"Vegan,Nut-Free  ",$$  
+The Larder + The Delta  ,"Phoenix, Arizona  ","Mexican, European",4.4,"Vegetarian ,Kosher",$$$  
+Bacanora  ,"Phoenix, Arizona  ","Mexican ,American",4.6,"Kosher,Halal   ",$$  
+Barrio Café ,"Phoenix, Arizona","Mexican ,Italian",4.5,"Vegetarian,Nut-Free  ",$$ 
+The Hive  ,"Bentonville, Arkansas  ",American  ,4.6,"Vegetarian,Halal  ",$$$  
+Mockingbird Bar & Tacos  ,"Little Rock, Arkansas  ",Mexican  ,4.5,"Gluten-Free,Halal,Kosher ",$$  
+Pantry Crest  ,"Little Rock, Arkansas  ",European  ,4.4,"Vegetarian,Vegan  ",$$  
+Boulevard Bread Co.  ,"Little Rock, Arkansas  ","Italian,European  ",4.7,"Vegan,Halal  ",$  
+Doe's Eat Place  ,"Little Rock, Arkansas  ","American,Steakhouse  ",4.5,Vegan ,$$$  
+The Root Cafe  ,"Little Rock, Arkansas  ","American,Indian,Mediterranean   ",4.6,"Vegetarian,Vegan  ",$$  
+Samantha's Tap Room & Wood Grill  ,"Little Rock, Arkansas  ","American,Mediterranean,Japanese  ",4.4,"Gluten-Free,Halal  ",$$$  
+The Fold Botanas & Bar  ,"Little Rock, Arkansas  ",Mexican,4.5,"Vegetarian,Halal  ",$$  
+Three Fold Noodles + Dumpling Co.  ,"Little Rock, Arkansas  ","Asian,Japanese  ",4.7,Vegetarian  ,$  
+Raduno Brick Oven & Barroom  ,"Little Rock, Arkansas  ","Italian,Asian  ",4.5,"Vegetarian,Diary-Free     ",$$  
+Zaza Fine Salad & Wood-Oven Pizza Co.  ,"Little Rock, Arkansas  ",Italian  ,4.6,"Vegetarian,Vegan  ",$$  
+Local Lime  ,"Little Rock, Arkansas  ","Mexican,American ",4.4,"Gluten-Free,Halal  ",$$  
+Big Orange  ,"Little Rock, Arkansas  ",American  ,4.5,"Vegetarian,Halal  ",$$  
+US Pizza Company  ,"Little Rock, Arkansas  ",Italian  ,4.3,"Vegetarian,Halal  ",$  
+The Pantry Restaurant  ,"Little Rock, Arkansas  ","European,Italian  ",4.5,"Vegetarian,Diary-Free  ",$$  
+Maddie's Place  ,"Little Rock, Arkansas  ",Italian  ,4.6,"Kosher,Vegan,Nut-Free ",$$$  
+Brave New Restaurant  ,"Little Rock, Arkansas  ",American  ,4.4,"Gluten-Free,Halal  ",$$$  
+Petit & Keet  ,"Little Rock, Arkansas  ",American  ,4.7,"Vegetarian,Halal  ",$$$  
+Table 28  ,"Little Rock, Arkansas  ","American,Italian  ",4.5,"Gluten-Free,Halal  ",$$$  
+Arthur's Prime Steakhouse  ,"Little Rock, Arkansas  ","American,Steakhouse  ",4.6,"Kosher,Nut-Free ",$$$$  
+Taco Mama  ,"Fayetteville, Arkansas  ",Mexican  ,4.4,"Vegetarian,Halal  ",$$  
+The Oyster Bar  ,"Little Rock, Arkansas  ","Asian,Chinese  ",4.5,"Gluten-Free,Halal  ",$$$  
+Kemuri  ,"Little Rock, Arkansas  ",Japanese  ,4.6,"Vegetarian,Vegan  ",$$  
+The Pizzeria  ,"Little Rock, Arkansas  ","Italian,Indian  ",4.4,"Vegetarian,Halal  ",$$  
+Capers  ,"Little Rock, Arkansas  ","American,Indian ",4.5,"Vegetarian,Halal  ",$$  
+Ester's  ,"Little Rock, Arkansas  ",American  ,4.6,"Vegetarian,Halal  ",$$  
+Mylo Coffee Co.  ,"Little Rock, Arkansas  ","Chinese,Asian",4.7,"Vegan,Nut-Free,Halal  ",$  
+The Buttered Biscuit  ,"Bentonville, Arkansas  ","Chinese,Asian  ",4.6,"Vegetarian,Halal  ",$$  
+Neighborhood Cafe  ,"Conway, Arkansas  ",American  ,4.5,"Vegetarian,Halal  ",$  
+Catfish City,"Little Rock, Arkansas","Chinese,Asian,Thai",4.4,"Nut-Free,Diary-Free",$$
+The French Laundry  ,"Yountville, California  ",European  ,4.3,"Vegetarian,Kosher,Halal ",$$$$  
+Nobu Malibu  ,"Malibu, California  ",Japanese  ,4.8,"Gluten-Free,Nut-Free  ",$$$$  
+Chez Panisse  ,"Berkeley, California  ","American,Steakhouse ",4.7,"Vegetarian,Vegan  ",$$$$  
+Swan Oyster Depot  ,"San Francisco, California  ",Mexican  ,4.7,"Kosher,Halal  ",$$$  
+Zuni Café  ,"San Francisco, California  ",Italian  ,4.6,"Vegetarian,Vegan  ",$$$  
+The Slanted Door  ,"San Francisco, California  ",Asian ,4.5,"Vegetarian,Vegan  ",$$$  
+Quince  ,"San Francisco, California  ",Italian  ,4.6,"Vegetarian,Gluten-Free  ",$$$$  
+Gary Danko  ,"San Francisco, California  ",European,4.8,"Vegetarian,Diary-Free  ",$$$$  
+Providence  ,"Los Angeles, California  ","Mexican,Chinese  ",4.7,Gluten-Free,$$$$  
+Republique  ,"Los Angeles, California  ",European  ,4.8,"Vegetarian,Kosher ",$$$  
+Spago  ,"Beverly Hills, California  ",American  ,4.6,"Vegetarian,Gluten-Free  ",$$$$  
+Bavel  ,"Los Angeles, California  ","Asian,Japanese",4.7,"Vegetarian,Vegan  ",$$$  
+Gjelina  ,"Los Angeles, California  ",Italian  ,4.6,Vegetarian ,$$$  
+Sqirl  ,"Los Angeles, California  ","Mediterranean,Italian ",4.5,"Vegetarian,Vegan  ",$$  
+Pizzeria Mozza  ,"Los Angeles, California  ",Italian ,4.4,Vegetarian,$$$  
+Hinoki & the Bird  ,"Los Angeles, California  ","Asian,European  ",4.5,"Gluten-Free,Nut-Free ",$$$  
+Guerilla Tacos  ,"Los Angeles, California  ",Mexican  ,4.3,"Vegetarian,Vegan  ",$$  
+Night + Market Song  ,"Los Angeles, California  ","Thai,Chinese  ",4.5,"Vegetarian,Halal ",$$  
+Rustic Canyon  ,"Santa Monica, California  ","American,Italian  ",4.4,"Vegetarian,Gluten-Free  ",$$$  
+State Bird Provisions  ,"San Francisco, California  ",American  ,4.5,"Vegetarian,Diary-Free  ",$$$  
+Tartine Manufactory  ,"San Francisco, California  ",Mediterranean ,4.7,"Vegetarian,Vegan  ",$$  
+Nopalito  ,"San Francisco, California  ","Mexican,Mediterranean  ",4.6,"Vegetarian,Halal   ",$$  
+The Taco María  ,"Costa Mesa, California  ",Mexican  ,4.4,"Vegetarian, Gluten-Free  ",$$$  
+Manresa  ,"Los Gatos, California  ","American,Indian,Mediterranean     ",4.7,"Vegetarian,Diary-Free ",$$$$  
+Atelier Crenn  ,"San Francisco, California  ","European,Italian  ",4.8,"Vegan,Halal ",$$$
+SingleThread  ,"Healdsburg, California  ","Japanese,Indian  ",4.8,"Vegetarian,Gluten-Free  ",$$$$  
+The Progress  ,"San Francisco, California  ","American,Indian,Chinese ",4.9,"Vegetarian,Diary-Free,Kosher",$$$  
+Lazy Bear  ,"San Francisco, California  ","American,European  ",4.6,"Vegetarian, Vegan  ",$$$$  
+Saison  ,"San Francisco, California  ","European,Italian,American   ",4.7,Vegetarian   ,$$$$  
+Californios ,"San Francisco, California ",Mexican ,4.8,"Gluten-Free,Halal ",$$$$
+ Sushi Den  ,"Denver, Colorado  ", Japanese  ,4.6,"Nut-Free, Dairy-Free  ",$$$
+ Uchi  ," Denver, Colorado  ", Japanese  ,4.7," Vegan, Gluten-Free  ",$$$
+ Mizu Izakaya  ," Denver, Colorado  ", Japanese  ,4.4, Nut-Free  ,$$
+ Taj Indian Cuisine  ," Denver, Colorado  "," Indian,Asian  ",4.5," Vegetarian, Vegan  ",$$
+ Little India  ," Denver, Colorado  ", Indian  ,4.8, Dairy-Free  ,$$$$
+ Spice Room  ," Denver, Colorado  ", Indian  ,4.5, Halal  ,$$$
+ Zoe Ma Ma  ," Boulder, Colorado  "," Chinese,Asian  ",4.7, Vegan  ,$$$
+ Fortune Wok to Table  ," Denver, Colorado  "," Chinese,Asian  ",4.6, Nut-Free  ,$$
+ Star Kitchen  ," Denver, Colorado  "," Chinese,Japanese  ",4.3, Dairy-Free  ,$$
+ Ash’Kara  ," Denver, Colorado  "," Mediterranean,European  ",4.5, Kosher  ,$$
+ Safta  ," Denver, Colorado  ", Mediterranean  ,4.7," Vegan, Gluten-Free  ",$$$
+ Jerusalem Restaurant  ," Denver, Colorado  ", Mediterranean  ,4.8, Halal  ,$$$
+ Café Berlin  ," Denver, Colorado  "," European,Italian  ",4.7, Vegetarian  ,$$$$
+ The Greenwich  ," Denver, Colorado  ", European  ,4.9, Dairy-Free  ,$$$
+ Bistro Vendôme  ," Denver, Colorado  "," Italian,Mediterranean  ",4.6, Gluten-Free  ,$$
+ Annette  ," Denver, Colorado  ", Italian  ,4.5, Vegetarian  ,$$$
+ Hop Alley  ," Denver, Colorado  "," Asian,Japanese  ",4.4, Nut-Free  ,$$
+ ChoLon Modern Asian  ," Denver, Colorado  ", Asian  ,4.6, Vegan  ,$$
+ Uncle  ," Denver, Colorado  "," Asian,Thai  ",4.5, Dairy-Free  ,$$$
+ Kawa Ni  ," Denver, Colorado  "," Asian,Chinese  ",4.4, Nut-Free  ,$$$
+ El Five  ," Denver, Colorado  ", Mediterranean  ,4.3, Vegan  ,$$
+ Café Mercato  ," Denver, Colorado  ", European  ,4.7, Dairy-Free  ,$$$
+ Ash’Kara  ," Denver, Colorado  ", Mediterranean  ,4.6, Kosher  ,$$$
+ The Bindery  ," Denver, Colorado  "," American,Mediterranean  ",4.4, Vegetarian  ,$$
+ Comal Heritage Food Incubator  ," Denver, Colorado  ", American  ,4.5, Vegan  ,$$$
+ La Diabla Pozole y Mezcal  ," Denver, Colorado  ", Mexican  ,4.6, Nut-Free  ,$$$
+ Mister Tuna  ," Denver, Colorado  ", American  ,4.5, Dairy-Free  ,$$
+ Work & Class  ," Denver, Colorado  ", Mexican ,4.7, Vegetarian  ,$$$
+ Rioja  ," Denver, Colorado  ", Mediterranean  ,4.6, Gluten-Free  ,$$$
+ Root Down," Denver, Colorado  ", American,4.5,Vegan,$$
+Feng Asian Bistro,"Fairfield, Connecticut","Asian,Chinese,Japanese",4.5,Nut-free,$$
+Tengda Asian Bistro,"New Canaan, Connecticut","Asian,American",4.4,Dairy-free,$$
+Mecha Noodle Bar,"Fairfield, Connecticut","Asian,Mexican",4.6,"Vegan,Kosher",$$
+Kawa Ni,"Westport, Connecticut",Japanese,4.7,Gluten-free,$$$
+Hachi Japanese Restaurant,"Danbury, Connecticut","Japanese,Asian",4.3,Nut-free,$$
+Matsu Sushi,"Westport, Connecticut",Japanese,4.5,"Dairy-free,Halal",$$
+Coromandel Indian Cuisine,"Orange, Connecticut","Indian,Asian",4.4,Vegetarian,$$
+Utsav Indian Restaurant,"Hartford, Connecticut",Indian,4.2,"Vegan,Halal",$
+Thali Too,"New Haven, Connecticut",Indian,4.5,Gluten-free,$$
+Royal India,"Greenwich, Connecticut",Indian,4.6,"Halal,Kosher",$$
+Sichuan Palace,"West Hartford, Connecticut","Chinese,Japanese",4.3,Nut-free,$
+Hunan House,"Stamford, Connecticut",Chinese,4.4,Dairy-free,$$
+Great Wall Chinese Restaurant,"New London, Connecticut",Chinese,4.1,Vegetarian,$
+Barcelona Wine Bar,"Fairfield, Connecticut","Mediterranean,Chinese",4.7,Vegan,$$$
+Oliva Restaurant,"New Haven, Connecticut","Mediterranean,Indian",4.5,Gluten-free,$$
+Shell & Bones Oyster Bar,"New Haven, Connecticut","Mediterranean,Chinese,Indian",4.6,"Nut-free,Halal",$$$
+Olea Mediterranean Grill,"New Haven, Connecticut",Mediterranean,4.4,Dairy-free,$$
+Treva Mediterranean Bistro,"Westport, Connecticut","Mediterranean,Asian,Indian",4.5,Vegetarian,$$$
+Zohara Mediterranean Kitchen,"Westport, Connecticut",Mediterranean,4.6,"Vegan,Vegetarian",$$$
+Tavern on State,"New Haven, Connecticut","European,Indian,Italian",4.7,Gluten-free,$$
+The Place 2 Be,"Hartford, Connecticut","European,Asian",4.3,Nut-free,$$
+Mill on the River,"South Windsor, Connecticut","European,American",4.5,"Dairy-free,Vegetarian",$$$
+Carbone's Ristorante,"Hartford, Connecticut","Italian,American",4.4,Vegetarian,$$
+Adriana's Restaurant,"New Haven, Connecticut","Italian,Mediterranean",4.6,Vegan,$$$$
+Artisan at Delamar Hotel,"Southport, Connecticut",Italian,4.8,Gluten-free,$$$
+Bar Bouchee,"Westport, Connecticut",European,4.5,Nut-free,$$
+Cos Cobber Pizza & Restaurant,"Greenwich, Connecticut","Italian,European",4.2,Dairy-free,$$
+Mecha Noodle Bar,"New Haven, Connecticut","Asian,European",4.6,Vegetarian,$$
+Bartaco,"Westport, Connecticut","Mexican,Mediterranean",4.5,"Vegan,Vegetarian",$$
+Geronimo Tequila Bar,"New Haven, Connecticut",Mexican,4.4,"Gluten-free,Vegetarian",$$
+Zuma Miami,"Miami, Florida","Japanese,Asian",4.6,Nut-free,$$$
+NAOE Miami,"Miami, Florida","Japanese,Chinese",4.8,Vegan options,$$$$
+Makoto Bal Harbour,"Bal Harbour, Florida",Japanese,4.5,Gluten-free,$$$
+Bombay Darbar,"Orlando, Florida","Indian,Italian",4.4,Vegetarian,$$
+Aashirwad Indian Cuisine,"Tampa, Florida","Indian,Mediterranean",4.3,Halal,$$
+Tamarind Indian Cuisine,"Fort Lauderdale, Florida",Indian,4.5,Vegetarian,$$
+Mr. Omakase,"Miami, Florida","Japanese,Mediterranean",4.7,Nut-free,$$$
+Tiger Mama,"Miami, Florida",Asian,4.4,Dairy-free,$$
+Hakkasan Miami,"Miami, Florida",Chinese,4.5,Nut-free,$$$
+Soya & Pomodoro,"Naples, Florida","Italian,European",4.6,Vegetarian,$$
+CVI.CHE 105,"Miami, Florida","Italian,European",4.7,Gluten-free,$$$
+NAMA,"Tampa, Florida","Japanese,Asian",4.4,Vegan,$$
+Mandolin Aegean Bistro,"Miami, Florida",Mediterranean,4.6,Vegetarian,$$$
+Café Bastille,"Miami, Florida",European,4.5,Dairy-free,$$$
+Cafe de Paris,"Sarasota, Florida",European,4.4,Vegetarian,$$$
+Boulud Sud Miami,"Miami, Florida",Mediterranean,4.7,Gluten-free,$$$
+El Cielo,"Miami, Florida",Mexican,4.6,Vegetarian,$$$
+Casa D'Angelo,"Fort Lauderdale, Florida","Italian,European",4.5,Vegetarian,$$$
+Il Mulino New York,"Miami Beach, Florida",Italian,4.7,Gluten-free,$$$
+Osteria Morini,"Miami, Florida",Italian,4.5,Vegetarian,$$$
+Uchi Miami,"Miami, Florida","Japanese,Chinese",4.8,Vegan,$$
+Katsuya South Beach,"Miami Beach, Florida","Japanese,Indian",4.5,Nut-free,$$$
+Blue Ribbon Sushi,"Miami Beach, Florida","Japanese,European,American",4.6,Gluten-free,$$
+Ghee Indian Kitchen,"Miami, Florida","Indian,European",4.7,Vegetarian,$$
+Darband Persian Grill,"Miami, Florida","European,American",4.4,Halal,$$
+Zak the Baker,"Miami, Florida",European,4.6,Kosher,$$
+The Local,"Coral Gables, Florida",American,4.5,Vegetarian,$$
+Threefold Cafe,"Miami, Florida","American,Mexican",4.4,Vegan,$$
+Planta South Beach,"Miami Beach, Florida",Mexican,4.6,Vegan,$$
+The Nile,"Orlando, Florida","Mediterranean,Mexican",4.5,Vegetarian,$$
+Nami,"Atlanta, Georgia","Japanese,Asian,Chinese",4.5,"Nut-free,Vegetarian",$$$
+Eight Sushi Lounge,"Atlanta, Georgia",Japanese,4.7,Vegan options,$$$
+Umi,"Atlanta, Georgia",Japanese,4.6,Gluten-free,$$$
+Chai Pani,"Decatur, Georgia","Indian,Mexican",4.8,Vegetarian,$$
+Bhojanic,"Atlanta, Georgia","Indian,Asian",4.4,"Halal,Vegetarian",$$
+Zyka,"Decatur, Georgia","Chinese,Asian",4.3,Vegetarian,$
+Tasty China,"Marietta, Georgia",Chinese,4.2,"Nut-free,Vegan",$$
+Gu's Kitchen,"Atlanta, Georgia","Chinese,American",4.5,Dairy-free,$$
+LanZhou Ramen,"Duluth, Georgia","Mexican,Chinese",4.4,Vegan,$
+Rreal Tacos,"Atlanta, Georgia",Mexican,4.6,Vegetarian,$$
+El Ponce,"Atlanta, Georgia",Mexican,4.5,"Dairy-free,Kosher",$$
+Taqueria del Sol,"Atlanta, Georgia","Mediterranean,Mexican ",4.4,Vegetarian,$
+Mediterranea,"Atlanta, Georgia",Mediterranean,4.7,Vegan,$$
+Cafe Agora,"Atlanta, Georgia",Mediterranean,4.3,"Halal,Kosher",$
+Aviva by Kameel,"Atlanta, Georgia","Italian,Asian",4.9,"Vegetarian,",$$$
+BoccaLupo,"Atlanta, Georgia",Italian,4.5,"Gluten-free,Vegetarian",$$
+Osteria 832,"Alpharetta, Georgia","Italian,American",4.4,Vegetarian,$$$
+Storico Fresco,"Atlanta, Georgia",Italian,4.6,Vegan,$$
+Little Alley,"Roswell, Georgia","Asian,American",4.5,Vegetarian,$$
+Hai,"Atlanta, Georgia","Asian,Mediterranean",4.3,"Nut-free,Vegan",$
+Talat Market,"Atlanta, Georgia",Asian,4.7,Vegan,$$
+Food Terminal,"Atlanta, Georgia","Asian,Indian",4.4,"Vegetarian,Vegan",$
+So Ba,"Atlanta, Georgia","Asian,Italian",4.2,"Kosher,Halal",$$
+Nam Phuong,"Duluth, Georgia","Asian,Mexican",4.5,Vegetarian,$$
+Pho Dai Loi,"Duluth, Georgia","European,Italian",4.3,"Vegetarian,Vegan",$$$
+Falling Rabbit,"Atlanta, Georgia",European,4.6,Vegetarian,$$
+The Consulate,"Atlanta, Georgia",European,4.5,Gluten-free,$$$
+Bulla Gastrobar,"Alpharetta, Georgia","European,Mediterranean,Indian",4.4,Vegetarian,$$$
+Cooks & Soldiers,"Atlanta, Georgia","European,Japanese,Chinese",4.7,"Kosher,Halal",$$$
+The Iberian Pig,"Decatur, Georgia","European,Japanese,Chinese",4.8,"Gluten-free,Vegan",$$
+MW Restaurant,Hawaii,American,4.6,"Gluten-Free,Halal",$$$
+Piggy Smalls,Hawaii,Asian,4.5,"Vegetarian ,Kosher",$$$
+The Pig and the Lady,Hawaii,"Vietnamese,Asian,Chinese",4.7,"Vegan ,Kosher",$$
+Senia,Hawaii,"American,European",4.8,Vegetarian,$$
+Fête,Hawaii,"Mediterranean,American",4.5,"Gluten-Free,Dairy-Free",$$$
+Lucky Belly,Hawaii,Asian,4.4,Nut-Free,$$
+Japengo,Hawaii,"Japanese,American",4.3,Dairy-Free,$$
+Morimoto Waikiki,Hawaii,"Japanese,",4.7,"Vegetarian,Vegan",$$
+Marukame Udon,Hawaii,Japanese,4.6,"Vegetarian ,Kosher",$$$
+Ichifuji,Hawaii,Japanese,4.4,"Vegetarian,Vegan",$$
+Tane Vegan Izakaya,Hawaii,"Japanese,Mexican,Italian",4.8,"Vegan,Nut-Free",$$
+Nanzan Giro Giro,Hawaii,"Japanese,Mexican",4.5,Vegetarian,$
+Yakitori Glad,Hawaii,"Japanese,Mediterranean",4.3,"Vegetarian,Vegan",$$
+India Café,Hawaii,"Indian,Asian",4.2,"Vegetarian,Dairy-Free",$
+Cafe Maharani,Hawaii,"Indian,American,Mexican",4.3,"Vegetarian,Dairy-Free,Halal",$$
+Himalayan Kitchen,Hawaii,"Indian,Chinese",4.4,"Halal,Nut-Free",$$
+Papa Kurt's,Hawaii,Indian,4.1,"Vegetarian,Vegan",$$
+Legend Seafood Restaurant,Hawaii,"Chinese,Mediterranean",4.3,Vegetarian,$$
+Jing Jing,Hawaii,"Chinese,European",4.2,"Vegetarian,Vegan",$$
+Lam's Kitchen,Hawaii,"Chinese,Japanese",4.1,"Vegetarian,Vegan",$$
+Mahina & Sun's,Hawaii,"Hawaiian,Mediterranean,American",4.5,"Vegetarian,Kosher",$$
+Moku Kitchen,Hawaii,"American,Asian",4.4,"Gluten-Free,Kosher",$$
+Mud Hen Water,Hawaii,"Hawaiian,European,Italian",4.6,"Vegetarian,Kosher",$$
+Arancino,Hawaii,"Italian,Mediterranean",4.5,Vegetarian,$$
+Taormina Sicilian Cuisine,Hawaii,Italian,4.4,"Gluten-Free,Halal",$$
+Auntie Pasto's,Hawaii,"Italian,American",4.3,"Vegetarian,Vegan,Kosher",$$
+Baci Bistro,Hawaii,"Italian,European",4.5,"Vegetarian,Nut-Free,Kosher",$$
+Olive Tree Café,Hawaii,"Mediterranean,European",4.4,Vegetarian,$$
+Mediterraneo,Hawaii,Mediterranean,4.5,"Vegetarian,Kosher,Halal",$$
+Tango Contemporary Cafe,Hawaii,European,4.4,"Vegetarian,Kosher",$$
+Taj Mahal,"Boise, Idaho","Indian,Asian",4.3,Dairy-Free,$$
+Madhuban Indian Cuisine,"Boise, Idaho","Indian,Mexican",4.5,"Vegetarian,Vegan",$$
+Shanghai Restaurant,"Boise, Idaho","Chinese,Japanese",4.1,"Vegetarian ,Kosher",$
+Wok Inn Noodle House,"Meridian, Idaho","Chinese,European",4.2,"Vegetarian,Vegan",$
+Yen Ching,"Idaho Falls, Idaho","Chinese,Mediterranean",4,"Vegan,Nut-Free",$
+Sakura Japanese Restaurant,"Boise, Idaho","Japanese,American",4.4,Vegetarian,$$
+Fujiyama Japanese Steakhouse,"Idaho Falls, Idaho","Japanese,Italian",4.3,"Vegetarian,Vegan",$$
+Kanpai Sushi Bar,"Boise, Idaho",Japanese,4.5,"Vegetarian,Dairy-Free",$$
+Mazzah Mediterranean Grill,"Boise, Idaho",Mediterranean,4.6,"Vegetarian,Dairy-Free,Halal",$$
+Aladdin's Mediterranean Cuisine,"Boise, Idaho","Mediterranean,Italian",4.4,"Halal,Nut-Free",$
+Cafe Ole,"Boise, Idaho","Mexican,Indian",4.3,"Vegetarian,Vegan",$
+Andrade's Mexican Restaurant,"Boise, Idaho",Mexican,4.2,Vegetarian,$
+Chapala Mexican Restaurant,"Nampa, Idaho","Mexican,European",4.1,"Vegetarian,Vegan",$
+La Tapatia,"Caldwell, Idaho",Mexican,4,"Vegetarian,Vegan",$$
+Flatbread Neapolitan Pizzeria,"Boise, Idaho",Italian,4.5,"Vegetarian,Kosher",$$
+Guido's Original New York Style Pizza,"Boise, Idaho","Italian,Chinese",4.4,"Gluten-Free,Kosher",$$
+Trattoria di Giovanna,"Boise, Idaho","Italian,Asian",4.6,"Vegetarian,Kosher",$$
+Red Feather Lounge,"Boise, Idaho",European,4.5,Vegetarian,$$
+Bittercreek Alehouse,"Boise, Idaho","American,Mediterranean",4.4,"Gluten-Free,Halal",$$
+The Modern Hotel and Bar,"Boise, Idaho","American,European,Japanese",4.6,"Vegetarian,Vegan,Kosher",$$
+Fork,"Boise, Idaho",American,4.5,"Vegetarian,Nut-Free,Kosher",$$
+Wild Root Cafe,"Boise, Idaho",American,4.4,Vegetarian,$$
+The Owyhee Tavern,"Boise, Idaho","American,Japanese,Thai",4.3,"Vegetarian,Kosher,Halal",$$
+Richard's Restaurant,"Boise, Idaho",American,4.2,"Vegetarian,Kosher",$$
+Grit American Cuisine,"Boise, Idaho","American,European,Chinese",4.1,Halal,$$
+Diablo & Sons Saloon,"Boise, Idaho","American,Mediterranean",4,"Vegetarian, Gluten-Free",$$
+The Cellar Pub,"Boise, Idaho","American,Mexican,Chinese",4.3,Nut-Free,$$
+Bardenay Restaurant & Distillery,"Boise, Idaho","American,Japanese",4.4,Dairy-Free,$$
+The Sandbar Patio & Grill,"Garden City, Idaho","American,Indian",4.2,Nut-Free,$$
+"Lock, Stock & Barrel","Eagle, Idaho",American,4.3,Vegetarian,$$$
+Mama Carolla's Old Italian Restaurant,"Indianapolis, Indiana",Italian,4.5,Vegetarian,$$
+Bluebeard,"Indianapolis, Indiana",Mexican,4.7,Gluten-Free,$$$
+Tinker Street,"Indianapolis, Indiana","American,Indian",4.6,Vegetarian,$$$
+Livery,"Indianapolis, Indiana","Mexican,Mediterranean",4.4,Nut-Free,$$
+Bazbeaux Pizza,"Indianapolis, Indiana",Italian,4.3,Vegetarian,$$
+Hinata,"Indianapolis, Indiana","Japanese,Mediterranean",4.8,"Nut-Free,Vegan",$$$
+Sakura Japanese Restaurant,"Indianapolis, Indiana",Japanese,4.2,Dairy-Free,$$
+India Garden,"Carmel, Indiana",Indian,4.5,Vegetarian,$$
+Shapiro's Delicatessen,"Indianapolis, Indiana",Mediterranean,4.6,"Kosher,Vegan",$$
+Sichuan Chinese Restaurant,"Carmel, Indiana",Chinese,4.1,Nut-Free,$
+Petra Cafe,"Indianapolis, Indiana",Mediterranean,4.4,Halal,$$
+Nada,"Indianapolis, Indiana",Mexican,4.3,Vegetarian,$$
+The Eagle,"Indianapolis, Indiana",American,4.5,"Vegetarian,Kosher",$$
+Milktooth,"Indianapolis, Indiana",Indian,4.7,Vegetarian,$
+Love Handle,"Indianapolis, Indiana","American,Italian",4.4,Dairy-Free,$$$
+Turf Catering Kitchen,"Indianapolis, Indiana","American,Mediterranean",4.6,"Vegan,Vegetarian",$$
+Geraldine's Supper Club,"Indianapolis, Indiana",American,4.5,"Kosher,Vegan",$$
+Iozzo's Garden of Italy,"Indianapolis, Indiana","Italian,Indian",4.4,Vegetarian,$$
+Saffron Cafe,"Indianapolis, Indiana",Mediterranean,4.3,"Vegetarian,Nut-Free",$$
+Ambrosia,"Indianapolis, Indiana","Italian,European",4.5,Gluten-Free,$$
+Bosphorus Istanbul Cafe,"Indianapolis, Indiana",Mediterranean,4.6,Halal,$$
+Thai Spice,"Bloomington, Indiana","Asian,European",4.4,"Nut-Free,Halal",$
+Sushi Bar,"Fort Wayne, Indiana","Japanese,American",4.3,Nut-Free,$
+The Tamale Place,"Indianapolis, Indiana","Mexican,Chinese",4.7,Vegetarian,$$
+Yats,"Indianapolis, Indiana","Chinese,Mediterranean",4.5,Vegetarian,$$
+Greek's Pizzeria,"Bloomington, Indiana",Italian,4.2,"Vegetarian,Kosher",$$
+Ukiyo,"Indianapolis, Indiana","Japanese,Chinese,Indian",4.6,Vegan,$$
+The Loft at Traders Point Creamery,"Indianapolis, Indiana","Mediterranean,Chinese",4.5,Vegetarian,$
+Mama's Korean BBQ,"Fort Wayne, Indiana","Korean,Asian,Indian",4.3,"Halal,Kosher,Vegan",$$
+Bento Asian Bistro,"South Bend, Indiana",Asian,4.2,"Nut-Free,Gluten-Free",$
+Istanbul Grill,"Des Moines, Iowa","Mediterranean,Mexican,Chinese",4.5,"Nut-Free,Vegan",$$
+Taste of India,"Cedar Rapids, Iowa","Indian,European",4.3,Dairy-Free,$$
+Miyabi 9,"Iowa City, Iowa","Japanese,Asian,Chinese",4.6,Vegetarian,$$$
+Thai Flavors,"Davenport, Iowa","Asian,Chinese",4.2,"Kosher,Vegan",$$
+La Regia Taqueria,"Des Moines, Iowa","Mexican,Chinese",4.7,Nut-Free,$
+Django,"Des Moines, Iowa",European,4.4,Halal,$$$
+The Latin King,"Des Moines, Iowa","Italian,Chinese",4.5,Vegetarian,$$
+Cool Basil,"Cedar Rapids, Iowa","Asian,Indian",4.1,"Vegetarian,Kosher",$$
+The Oasis Falafel,"Iowa City, Iowa","Mediterranean,European",4.6,Vegetarian,$$
+Kathmandu Restaurant,"Iowa City, Iowa","Asian,European",4.4,Dairy-Free,$$
+Tumea & Sons,"Davenport, Iowa",Italian,4.3,"Vegan,Vegetarian",$$
+Soseki Cafe,"Des Moines, Iowa","Japanese,Indian",4.5,"Kosher,Vegan",$$
+Cafe Dodici,"Washington, Iowa","European,Indian",4.7,Vegetarian,$$
+The Lucky Lotus,"Des Moines, Iowa","Asian,Japanese,Chinese",4.2,"Vegetarian,Nut-Free",$$
+Malo,"Des Moines, Iowa","Mexican,Mediterranean",4.3,Gluten-Free,$$$
+Proof,"Des Moines, Iowa","European,Mediterranean",4.6,Halal,$$
+The Dumpling Darling,"Des Moines, Iowa","Asian,Chinese",4.5,"Nut-Free,Halal",$
+Bubba,"Iowa City, Iowa","American,Mediterranean,Asian",4,Nut-Free,$$
+The Tacopocalypse,"Des Moines, Iowa","Mexican,Asian",4.4,Vegetarian,$$
+Himalayan Spice,"Cedar Rapids, Iowa","Indian,Japanese",4.3,Vegetarian,$
+Mongolian Grill,"West Des Moines, Iowa",Asian,4.1,"Vegetarian,Kosher",$$
+The Café,"Iowa City, Iowa","American,Asian,Mexican",4.5,Vegan,$$
+Zombie Burger + Drink Lab,"Des Moines, Iowa",American,4.4,Vegetarian,$$
+A Dong,"Des Moines, Iowa","Asian,Mexican",4.2,"Halal,Kosher,Vegan",$$
+Pho All Seasons,"Cedar Rapids, Iowa","Asian,Indian",4.3,"Nut-Free,Gluten-Free",$$
+Tasty Tacos,"Des Moines, Iowa",Mexican,4.6,"Vegetarian, Vegan",$$
+Dough Mama Pizzeria,"Iowa City, Iowa","Italian,European",4.4,Gluten-Free,$
+The Gursha Ethiopian,"Des Moines, Iowa",African,4.5,Vegetarian,$$
+Baru 66,"Davenport, Iowa","Mexican,Mediterranean",4.3,Vegetarian,$$
+The Cheese Shop,"Des Moines, Iowa","European,Indian",4.4,Vegetarian,$$
+Blue Koi,"Kansas City, Kansas","Chinese,Mediterranean",4.5,"Nut-free,Vegan",$$
+Jarocho Pescaderia,"Kansas City, Kansas",Mexican,4.7,"Dairy-free,Vegetarian",$$
+Boru Ramen,"Overland Park, Kansas","Japanese,Mexican",4.3,Vegetarian,$$
+Taj Mahal Indian Restaurant,"Overland Park, Kansas",Indian,4.4,"Vegetarian, Vegan",$$
+Thai Siam,"Lawrence, Kansas",Thai,4.6,"Vegan,Dairy-free",$
+Mediterranean Grill & Cafe,"Overland Park, Kansas","Mediterranean,European",4.2,"Halal,Dairy-free",$$
+Cafe Provence,"Prairie Village, Kansas",European,4.5,Gluten-free,$$$
+Le Fou Frog,"Kansas City, Kansas",European,4.6,"Vegetarian,",$$$
+Waldo Thai,"Kansas City, Kansas","Thai,Asian,Indian",4.8,"Vegan,Kosher",$$
+El Camino Real,"Kansas City, Kansas",Mexican,4.1,Vegetarian,$
+Pig & Finch,"Leawood, Kansas",American,4.3,"Nut-free,Halal",$$
+Siena Tuscan Steakhouse,"Overland Park, Kansas","Italian,Mediterranean",4.5,Gluten-free,$$$
+ABC Cafe,"Lawrence, Kansas",Chinese,4,"Vegetarian,Halal",$
+Kin Lin,"Lawrence, Kansas","Chinese,Mediterranean",4.2,Dairy-free,$
+Genghis Khan,"Manhattan, Kansas","Asian,Mediterranean",4.1,"Nut-free,Halal",$$
+Aoyama Ramen,"Lawrence, Kansas",Japanese,4.4,Vegetarian,$
+Manna Wok,"Overland Park, Kansas",Chinese,4.3,"Nut-free,Vegan",$
+Taco Via,"Shawnee, Kansas","Mexican,European",3.9,"Vegetarian,Dairy-free,Kosher",$$
+Italian Gardens,"Kansas City, Kansas",Italian,4.2,Vegetarian,$$
+Paisano's Ristorante,"Olathe, Kansas",Italian,4.3,Gluten-free,$$
+Nara,"Overland Park, Kansas","Japanese,European",4.5,"Vegan,Dairy-free",$
+Tasty Thai,"Lawrence, Kansas","Thai,European,Asian",4.4,Vegetarian,$$$
+Bella Napoli,"Mission, Kansas","Italian,Mediterranean",4.3,"Vegetarian,Kosher",$$
+Juniper,"Manhattan, Kansas","American,European",4.6,"Gluten-free,Kosher",$$
+The Russell,"Wichita, Kansas",American,4.4,Vegetarian options,$
+Lulu's Thai Noodle Shop,"Lawrence, Kansas","Thai,European,Asian",4.5,"Vegan,Halal",$$
+Yokohama Ramen,"Topeka, Kansas","Japanese,Chinese",4.2,"Vegetarian,Kosher,Halal",$
+Taj Palace,"Overland Park, Kansas","Indian,Chinese",4.3,"Vegetarian, Vegan",$$
+El Potro Mexican Cafe,"Overland Park, Kansas",Mexican,4.1,Vegetarian,$$
+Zou's Japanese Restaurant,"Lenexa, Kansas","Japanese,European",4.4,"Nut-free,Kosher",$$
+Mayan Café,"Louisville, Kentucky","Mexican,Asian,Indian",4.6,"Vegetarian,Vegan,Kosher",$$
+Shalimar Indian Cuisine,"Lexington, Kentucky","Indian,Chinese,Mediterranean",4.4,"Vegetarian,Gluten-Free",$$
+Bamboo House,"Louisville, Kentucky","Chinese,Japanese",4.3,Nut-Free,$
+Ostra,"Louisville, Kentucky","Mediterranean,Mexican",4.5,"Dairy-Free,Nut-Free",$$$
+The Bombay Grill,"Lexington, Kentucky","Indian,Mediterranean",4.2,"Halal,Dairy-Free",$$
+Tandoori Fusion,"Louisville, Kentucky","Indian,Italian",4.5,Vegetarian,$$
+Jasmine Chinese Restaurant,"Lexington, Kentucky",Chinese,4.1,Nut-Free,$
+Miyako Poke & Sushi,"Louisville, Kentucky",Japanese,4.4,Vegan ,$$
+Saffron's Persian Cuisine,"Louisville, Kentucky","Japanese,Italian",4.7,"Vegetarian, Gluten-Free",$
+Naf Naf Grill,"Lexington, Kentucky",Mediterranean,4.3,"Halal,Kosher",$$
+Al-Watan,"Louisville, Kentucky","Mexican,Chinese",4.5,"Halal,Gluten-Free",$$
+Kashmir Indian Restaurant,"Lexington, Kentucky","Indian,Japanese",4.4,Vegetarian,$$
+Oskar's Slider Bar,"Louisville, Kentucky","American,Italian",4.2,"Vegan,Kosher",$$
+The Eagle,"Lexington, Kentucky",American,4.5,Vegetarian,$$
+Mita's,"Cincinnati, Kentucky","Japanese,European,American",4.6,Vegetarian ,$
+Los Aztecas,"Louisville, Kentucky","Mexican,Japanese",4.3,"Vegetarian,Nut-Free",$
+El Molcajete,"Lexington, Kentucky",Mexican,4.2,"Kosher,Halal",$$
+Cafe Lou Lou,"Louisville, Kentucky","Italian,Indian",4.5,Vegetarian ,$
+Simply Thai,"Lexington, Kentucky","Thai,Asian,Chinese",4.4,"Nut-Free,Dairy-Free",$$
+Taj India,"Louisville, Kentucky",Indian,4.6,"Vegetarian,Vegan",$$
+Bourbon n' Toulouse,"Lexington, Kentucky",Chinese,4.5,"Kosher,Vegan,Gluten-Free",$
+Taco Luchador,"Louisville, Kentucky","Mexican,Italian",4.3,Vegetarian ,$$
+Nam Nam Cafe,"Lexington, Kentucky","Vietnamese,Asian",4.4,"Vegetarian, Gluten-Free",$$
+Shahar Cafe,"Louisville, Kentucky","Mexican,American",4.6,"Halal,Vegan,Nut-Free",$$
+The Grape Leaf,"Lexington, Kentucky",Mediterranean,4.5,Vegetarian,$$
+Pasha Mediterranean Grill,"Louisville, Kentucky","Mediterranean,Chinese,Italian",4.4,"Vegetarian, Vegan",$$
+Sarang,"Lexington, Kentucky","Chinese,Italian",4.3,"Vegetarian ,Kosher",$$
+Epping's on Eastside,"Louisville, Kentucky",American,4.5,"Gluten-Free,Vegan ",$
+Bella Notte,"Lexington, Kentucky",Italian,4.4,"Vegetarian,Halal ",$$
+The Cafe,"Louisville, Kentucky","American,Italian,Indian",4.6,"Vegetarian, Gluten-Free",$$
+Dong Phuong Oriental Bakery,"New Orleans, Louisiana","Chinese,Italian,European",4.5,"Vegetarian,Gluten-Free",$
+Saffron NOLA,"New Orleans, Louisiana","Indian,Mexican",4.6,Nut-Free,$$
+Bombay Club,"New Orleans, Louisiana",Indian,4.4,"Dairy-Free,Nut-Free",$$$
+Sukho Thai,"New Orleans, Louisiana",Asian,4.5,"Halal,Dairy-Free",$$
+Jazmine Cafe,"New Orleans, Louisiana","Thai,Asian,Mexican",4.7,Vegetarian,$
+Kin,"New Orleans, Louisiana","Asian,European",4.5,Nut-Free,$$
+Mopho,"New Orleans, Louisiana","Asian,Japanese",4.4,Vegan ,$$
+Ba Chi Canteen,"New Orleans, Louisiana",Asian,4.3,"Vegetarian, Gluten-Free",$$
+Carmo,"New Orleans, Louisiana","Mexican,Japanese",4.6,"Halal,Kosher",$$$
+Maypop,"New Orleans, Louisiana",Asian Fusion,4.5,"Halal,Gluten-Free",$$
+Saba,"New Orleans, Louisiana","Mediterranean,Italian",4.7,Vegetarian,$$$
+Shaya,"New Orleans, Louisiana",Mediterranean,4.8,"Vegan,Kosher",$$
+Saffron Restaurant,"New Orleans, Louisiana","Indian,Chinese,Japanese",4.3,Vegetarian,$$$
+Balkan Bistro,"New Orleans, Louisiana","European,Mexican",4.4,Vegetarian ,$$$
+Cafe Degas,"New Orleans, Louisiana","European,Indian",4.5,"Vegetarian,Nut-Free",$$$
+La Petite Grocery,"New Orleans, Louisiana","European,Chinese",4.7,"Kosher,Halal",$$$
+Lilette,"New Orleans, Louisiana","Italian,Indian",4.6,Vegetarian ,$$$
+Brigtsen's,"New Orleans, Louisiana","Mexican,Japanese",4.7,"Nut-Free,Dairy-Free",$$$
+Clancy's,"New Orleans, Louisiana","Asian,Japanese,Indian",4.8,"Vegetarian,Vegan",$$$
+Commander's Palace,"New Orleans, Louisiana","Chinese,Asian",4.8,"Kosher,Vegan,Gluten-Free",$$$
+Doris Metropolitan,"New Orleans, Louisiana","American,Steakhouse,Chinese",4.6,Vegetarian ,$$$
+GW Fins,"New Orleans, Louisiana","Mediterranean,Italian",4.7,"Vegetarian, Gluten-Free",$$$
+Herbsaint,"New Orleans, Louisiana","Italian,Mexican",4.6,"Halal,Vegan,Nut-Free",$$$
+La Boca,"New Orleans, Louisiana","Mexican,Chinese",4.5,"Vegan,Dairy-free",$$$
+Patois,"New Orleans, Louisiana","French,Chinese,Asian",4.6,"Halal,Dairy-free",$$$
+Peche Seafood Grill,"New Orleans, Louisiana","American,Steakhouse",4.7,Gluten-free,$$
+Restaurant August,"New Orleans, Louisiana","American,Steakhouse",4.7,"Vegetarian,",$
+Rosedale,"New Orleans, Louisiana","American,Italian",4.4,"Nut-Free,Dairy-Free",$$$
+Saba Restaurant,"New Orleans, Louisiana","Mediterranean,European",4.7,"Vegetarian,Vegan",$$$
+The Chimes,"Baton Rouge, Louisiana","American,Japanese",4.3,"Kosher,Vegan,Gluten-Free",$$$
+Fore Street,"Portland, Maine","American,Italian,Mexican",4.7,"Vegetarian,,Vegan,Dairy-Free",$$$
+Eventide Oyster Co.,"Portland, Maine","Japanese,Asian",4.8,"Nut-Free,Kosher",$$$
+Duckfat,"Portland, Maine","American,Chinese,Asian",4.6,"Vegetarian,Nut-Free",$$
+Central Provisions,"Portland, Maine","Mexican,Italian",4.7,Gluten-Free ,$$$
+The Honey Paw,"Portland, Maine","Asian,Mexican",4.5,"Vegan,Kosher,Dairy-Free",$$
+Scales,"Portland, Maine","European,Italian,Asian",4.6,Nut-Free,$$$
+Street & Co.,"Portland, Maine","Mediterranean,Japanese",4.6,"Dairy-Free,Halal",$$$
+Suzuki's Sushi Bar,"Portland, Maine","Japanese,Mexican",4.5,"Nut-Free,Dairy-Free",$$
+Pai Men Miyake,"Portland, Maine","Japanese,Thai,Asian",4.4,"Vegetarian,Dairy-Free",$$
+Yosaku,"Portland, Maine","Japanese,European,Asian",4.3,Gluten-Free,$$
+Taj Indian Cuisine,"Portland, Maine","Indian,European",4.2,Vegetarian,$$
+Masala Mahal,"South Portland, Maine","Indian,Mediterranean",4.1,"Halal,Nut-Free",$
+Shere Punjab,"Bangor, Maine","Indian,Asian,Chinese",4,"Vegetarian,Halal",$$
+Veranda Asian Cuisine,"Portland, Maine","Asian,Chinese",4.3,"Vegan,Kosher",$$
+Empire Chinese Kitchen,"Portland, Maine","Chinese,Indian",4.2,"Nut-Free,Kosher",$$
+Zhu's Garden,"Brunswick, Maine","Chinese,Italian",4.1,Vegetarian,$$
+Mediterranean Grill,"Portland, Maine","Mediterranean,Italian",4.4,"Dairy-Free,Vegan",$$
+Figgy's Takeout,"Portland, Maine","Mediterranean,Asian",4.3,"Gluten-Free,Kosher",$$
+Olive Cafe,"Portland, Maine","Mediterranean,Mexican",4.2,"Vegetarian,Vegan",$$
+Evo Kitchen + Bar,"Portland, Maine","European,Mediterranean",4.5,"Vegan,Nut-Free",$$
+Caraola's Italian Restaurant,"Portland, Maine","Italian,European",4.4,"Vegetarian,Dairy-Free",$$$
+Ribollita,"Portland, Maine","Italian,Chinese",4.3,"Gluten-Free,Vegan",$$$
+Vinland,"Portland, Maine",New American,4.6,"Vegetarian,Kosher",$$
+The Garlic,"Bar Harbor, Maine","European,Indian",4.5,"Vegetarian,Nut-Free",$$
+The Lost Kitchen,"Freedom, Maine","American,Japanese",4.8,"Vegetarian,Vegan,Dairy-Free",$$$
+Primo,"Rockland, Maine","Italian,Mexican",4.7,"Vegetarian,Halal",$$$
+Tandem Coffee + Bakery,"Portland, Maine","Chinese,European",4.5,"Vegetarian,,Vegan",$$
+Big Tree Hospitality,"Portland, Maine","American,Steakhouse",4.4,"Vegetarian,Nut-Free",$$$
+The Well at Jordan's Farm,"Cape Elizabeth, Maine","Chinese,European,Mexican",4.6,"Vegetarian,Kosher",$$
+The Black Tie Co.,"Portland, Maine","Italian,Japanese,Asian",4.5,"Vegetarian,Halal,Dairy-Free",$$$
+The Helmand,"Baltimore, Maryland",Mediterranean,4.6,"Vegetarian,Gluten-Free,Halal",$$
+Sushi Sono,"Columbia, Maryland","Japanese,Mexican,Italian",4.7,"Nut-Free,Dairy-Free",$$
+Indigma,"Baltimore, Maryland","Indian,Asian,Chinese",4.3,"Vegetarian,Vegan",$
+Peter Chang,"Rockville, Maryland","Chinese,Asian",4.4,"Nut-Free,Dairy-Free,Vegan",$$$
+Maiwand Kabob,"Baltimore, Maryland","Mediterranean,European",4.5,"Halal,Dairy-Free,Vegan",$$$
+Zatinya,"Baltimore, Maryland",Mediterranean,4.5,"Vegetarian,Halal",$$
+Cinghiale,"Baltimore, Maryland",Italian,4.6,"Gluten-Free,Dairy-Free,Vegan",$
+The Food Market,"Baltimore, Maryland","American,Mexican",4.4,Vegetarian ,$$
+Ekiben,"Baltimore, Maryland","Asian,Chinese",4.8,Nut-Free,$$$
+Clavel,"Baltimore, Maryland","Mexican,European",4.7,Vegetarian,$$
+Cosima,"Baltimore, Maryland","Italian,Mexican",4.5,"Vegetarian,Gluten-Free",$$
+Sardis,"Baltimore, Maryland","Mediterranean,Italian",4.4,"Vegetarian,Vegan",$$
+Namaste Baltimore,"Baltimore, Maryland","Indian,Japanese,Italian",4.2,"Vegetarian,Nut-Free",$$$
+Kippo Ramen,"Rockville, Maryland","Japanese,Italian",4.5,"Nut-Free,Vegan",$$$
+Ambassador Dining Room,"Baltimore, Maryland","Indian,Japanese,Asian",4.3,"Vegetarian,Dairy-Free,Vegan",$$
+Tio Pepe,"Baltimore, Maryland","European,Italian",4.7,"Vegetarian,Dairy-Free,Vegan ",$$$
+The Black Olive,"Baltimore, Maryland",Mediterranean,4.6,"Vegetarian, Gluten-Free,Halal",$$
+Ouzo Beach,"Ocean City, Maryland","European,Japanese",4.4,Vegetarian,$$
+Koco's Pub,"Baltimore, Maryland","American,Mediterranean,European",4.5,Kosher,$$$
+La Cuchara,"Baltimore, Maryland","Mediterranean,Mexican",4.6,"Vegetarian,Vegan ",$$$
+Mama's on the Half Shell,"Baltimore, Maryland","American,European",4.3,"Kosher,Nut-Free",$$
+Thames Street Oyster House,"Baltimore, Maryland","European,Mediterranean",4.5,"Nut-Free,Halal",$
+The Capital Grille,"Baltimore, Maryland","American,Steakhouse,Asian",4.4,"Gluten-Free,Halal",$$$
+Alma Cocina Latina,"Baltimore, Maryland","American,Chinese",4.7,"Vegetarian, Vegan",$$
+Cava Mezze,"Rockville, Maryland","Mediterranean,Asian,Chinese",4.5,"Vegetarian, Gluten-Free",$$$
+Shotti's Point,"Ocean City, Maryland","American,Steakhouse",4.4,"Kosher,Vegan",$$$
+Liquid Earth,"Baltimore, Maryland","Indian,European,Italian",4.5,"Vegan,Dairy-Free,Vegan",$$
+Sweetgreen,"Multiple Locations, Maryland","Asian,Thai,Chinese",4.3,"Vegetarian,Vegan",$$
+True Chesapeake Oyster Co.,"Baltimore, Maryland","Indian,Mexican,Chinese",4.6,"Kosher,Halal",$$$
+The Olive Room,"Easton, Maryland","Mediterranean,Italian",4.5,"Vegetarian,Vegan",$$$
+Zingerman's Delicatessen,"Ann Arbor, Michigan",American,4.7,Kosher,$$
+Slurping Turtle,"Ann Arbor, Michigan","Japanese,Thai",4.4,Nut-free,$$
+Cardamom,"Ann Arbor, Michigan","Indian,Asian",4.5,Vegetarian,$$
+Shangri-La,"West Bloomfield, Michigan","Chinese,Italian",4.3,Nut-free,$
+Bangkok 96,"Farmington Hills, Michigan","Asian,European",4.6,Vegan,$$
+The Chop House,"Ann Arbor, Michigan",Mexican,4.5,Gluten-free,$$$
+The Earle,"Ann Arbor, Michigan","Italian,European",4.6,Vegetarian,$$$
+La Dolce Vita,"Detroit, Michigan",Italian,4.2,Vegetarian,$$
+M Cantina,"Detroit, Michigan","Mexican,American",4.3,Vegetarian,$$
+Ima,"Detroit, Michigan","Asian,Mexican",4.4,Vegan,$
+Sahara Restaurant,"Dearborn, Michigan","Mediterranean,European",4.5,Halal,$$
+Star Deli,"West Bloomfield, Michigan","American,Steakhouse",4.3,Kosher,$
+Sysco Lebanese Grill,"Dearborn, Michigan","Asian,European",4.6,Halal,$$
+The Pink Door,"Detroit, Michigan","Italian,European,Mexican",4.1,Vegetarian,$$
+Besa,"Detroit, Michigan","Mediterranean,Asian",4.4,Vegetarian,$$
+The Kitchen by Cooking with Que,"Detroit, Michigan","American,Steakhouse,Italian",4.5,Gluten-free,$$
+The Grange Kitchen & Bar,"Ann Arbor, Michigan","American,Asian",4.3,Vegetarian,$$
+Detroit Vegan Soul,"Detroit, Michigan","Mediterranean,Asian",4.6,Vegan,$
+Seva,"Ann Arbor, Michigan","American,Steakhouse",4.4,Vegan,$$
+The Lunch Room,"Ann Arbor, Michigan","American,Mediterranean",4.5,Vegan,$$
+The Brinery,"Ann Arbor, Michigan","Asian,Indian,Mexican",4.2,Vegetarian,$$
+Pacific Rim by Kana,"Ann Arbor, Michigan","Japanese,Mexican",4.6,Nut-free,$$
+Nagomi Sushi,"Novi, Michigan","Japanese,Italian",4.5,Nut-free,$$
+Maru Sushi,"Detroit, Michigan","Indian,Asian,Mexican",4.4,Gluten-free,$$
+A Taste of India,"Troy, Michigan","Indian,Mediterranean",4.3,Vegetarian,$
+Bombay Cuisine,"Canton, Michigan","Indian,Italian,European",4.2,Vegetarian,$$
+Neehee's Indian Street Food,"Canton, Michigan","Mediterranean,Italian,European",4.7,Vegetarian,$
+Pita Cafe,"Dearborn, Michigan","Mediterranean,Japanese",4.4,Halal,$$
+La Marsa,"Troy, Michigan","Mediterranean,Indian",4.3,Halal,$$
+Amani's,"Dearborn, Michigan","Mediterranean,Indian",4.5,Halal,$$
+O Ya,"Boston, Massachusetts","Japanese,American",4.7,"Nut-free,Gluten-free,Dairy-free",$$
+Uni,"Boston, Massachusetts","Japanese,Italian",4.6,"Vegan ,Dairy-free,Kosher",$$$$
+Cafe Sushi,"Cambridge, Massachusetts","Japanese,European",4.4,Vegetarian,$$$
+Maharaja,"Boston, Massachusetts","Indian,Italian",4.3,"Vegetarian,Vegan",$$
+Mantra,"Boston, Massachusetts","Indian,Chinese",4.5,"Halal,Vegan",$$
+Dosa-n-Curry,"Somerville, Massachusetts",Indian,4.2,Vegetarian,$$
+Myers + Chang,"Boston, Massachusetts","Asian,Indian",4.5,"Nut-free,Halal,Dairy-free",$
+Dumpling Cafe,"Boston, Massachusetts","Chinese,Italian",4.4,Dairy-free,$$
+Winsor Dim Sum Cafe,"Boston, Massachusetts",Chinese,4.3,"Nut-free,Vegan",$
+Sarma,"Somerville, Massachusetts","Mediterranean,Chinese,Asian",4.7,"Vegetarian, Vegan",$$$
+Oleana,"Cambridge, Massachusetts",Mediterranean,4.6,"Vegetarian,Gluten-free",$$$
+Avenue Kitchen + Bar,"Boston, Massachusetts","European,American",4.4,"Vegetarian,Nut-free",$$
+Mida,"Boston, Massachusetts","Italian,Chinese",4.5,"Vegetarian ,Kosher",$$$
+SRV,"Boston, Massachusetts","Italian,Indian",4.6,"Gluten-free,Halal",$$$
+Giulia,"Cambridge, Massachusetts","European,American",4.7,Vegetarian,$$$
+A Tavola,"Winchester, Massachusetts","Italian,American,Indian",4.5,"Vegetarian ,Kosher",$$
+Bar Volpe,"Boston, Massachusetts","Italian,Chinese",4.6,"Vegetarian,Nut-free",$$$
+Mamma Maria,"Boston, Massachusetts","Italian,European",4.7,"Nut-free,Vegan",$$$
+Cosmic American,"Somerville, Massachusetts","American,Asian",4.4,"Vegetarian,Dairy-free,Kosher",$$
+The Table at Season to Taste,"Cambridge, Massachusetts","American,Chinese",4.6,"Vegetarian,Gluten-free",$$$
+Bisq,"Cambridge, Massachusetts","American,Steakhouse",4.5,"Vegetarian,Dairy-free",$$$
+Craigie on Main,"Cambridge, Massachusetts","American,Italian",4.7,"Vegetarian,Kosher,Vegan",$$$
+Little Donkey,"Cambridge, Massachusetts","Indian,Steakhouse",4.6,"Vegetarian,Vegan",$$
+Moona,"Cambridge, Massachusetts",Mediterranean,4.5,"Vegetarian,Halal,Vegan",$$
+Sofra Bakery,"Cambridge, Massachusetts",Mediterranean,4.7,"Vegetarian,Vegan",$$
+Toro,"Boston, Massachusetts","Spanish,European,Asian",4.6,"Vegetarian,Kosher",$$
+Celeste,"Somerville, Massachusetts",Mediterranean,4.5,"Vegetarian,Nut-free",$$
+La Royal,"Cambridge, Massachusetts","Asian,American",4.4,"Vegetarian,Halal,Kosher",$$
+El Centro,"Boston, Massachusetts","Mexican,American",4.3,"Vegetarian,Halal,Vegan",$
+Tres Gatos,"Boston, Massachusetts","European,Asian",4.5,"Vegetarian,Dairy-free,Kosher",$$$
+Spoon and Stable,"Minneapolis, Minnesota","European,Asian,Mediterranean",4.7,"Vegetarian, Gluten-Free",$$$
+Young Joni,"Minneapolis, Minnesota","Italian,Mediterranean",4.8,"Vegetarian,Nut-Free,Kosher",$$$
+Kado no Mise,"Minneapolis, Minnesota",Japanese,4.6,"Nut-Free,Vegan,Halal",$$$
+Kyatchi,"Minneapolis, Minnesota","Japanese,Chinese",4.5,Vegan Gluten-Free,$$$
+Masu Sushi & Robata,"Minneapolis, Minnesota",Japanese,4.4,"Nut-Free,Halal",$$$
+Gorkha Palace,"Minneapolis, Minnesota","Indian,Japanese,Asian",4.3,"Vegetarian, Vegan",$$
+India Palace,"Bloomington, Minnesota","Indian,Asian",4.2,"Vegetarian,Vegan",$$
+Godavari,"Eden Prairie, Minnesota",Indian,4.4,"Vegetarian,Halal",$$
+Tea House Chinese,"Minneapolis, Minnesota","Chinese,Japanese",4.1,"Nut-Free,Vegan,Gluten-Free",$
+Peking Garden,"St. Paul, Minnesota","Chinese,Asian",4,"Dairy-Free,Kosher,Nut-Free",$$
+Que Viet,"Minneapolis, Minnesota","Asian,Chinese,Mediterranean",4.3,"Vegetarian,,Kosher",$$
+Lat14,"Golden Valley, Minnesota","Asian,Mediterranean",4.5,"Vegan,Gluten-Free",$$
+World Street Kitchen,"Minneapolis, Minnesota","Asian,Japanese,Chinese",4.2,"Vegetarian, Vegan",$$
+Hola Arepa,"Minneapolis, Minnesota","Mexican,American,Mediterranean",4.6,"Vegetarian,Halal,Kosher",$$
+Borough,"Minneapolis, Minnesota",Mediterranean,4.4,"Gluten-Free,Vegan",$$$
+Martina,"Minneapolis, Minnesota","American,Mediterranean",4.7,"Vegetarian,Vegan",$$$
+Colita,"Minneapolis, Minnesota","Mexican,Asian",4.5,"Vegan,Dairy-Free",$$$
+Myriel,"St. Paul, Minnesota","European,Chinese",4.6,"Gluten-Free,Dairy-Free",$$$
+Sanjusan,"Minneapolis, Minnesota",Japanese,4.8,"Nut-Free,Dairy-Free",$$$
+Travail Kitchen,"Robbinsdale, Minnesota","Mexican,Japanese",4.9,"Kosher,Vegetarian,Halal",$$$
+The Kenwood,"Minneapolis, Minnesota","American,Mediterranean",4.5,Vegetarian,$$$
+Alma,"Minneapolis, Minnesota","European,Japanese",4.7,"Gluten-Free,Nut-Free,Halal",$$
+Mancini's,"St. Paul, Minnesota","Italian,Japanese",4.3,"Vegetarian,,Kosher",$$
+Mu Mu's,"St. Paul, Minnesota","Italian,Mediterranean",4.2,"Vegetarian,Vegan",$$
+Red Rabbit,"Minneapolis, Minnesota","Italian,Chinese",4.4,"Dairy-Free,Gluten-Free",$$
+Broders' Pasta Bar,"Minneapolis, Minnesota",Italian,4.3,"Vegetarian,Halal",$$
+Punch Pizza,"St. Paul, Minnesota","Italian,Asian",4.2,"Vegetarian,Dairy-Free,Halal",$$
+Cossetta,"St. Paul, Minnesota","Italian,Asian",4.5,Vegetarian,$$$
+Bar La Grassa,"Minneapolis, Minnesota","Italian,Mediterranean",4.6,"Vegetarian,,Kosher",$$$
+112 Eatery,"Minneapolis, Minnesota","American,Japanese,Chinese",4.5,"Vegetarian,Dairy-Free,Halal",$$
+The Manship,"Jackson, Mississippi","American,Chinese",4.5,"Vegetarian ,Kosher",$$$
+Walker's Drive-In,"Jackson, Mississippi",American,4.6,"Gluten-Free ,Kosher",$$$
+Elvie's,"Jackson, Mississippi","European,Indian",4.7,Vegetarian,$$$
+Anjou,"Jackson, Mississippi","European,Italian",4.4,"Vegetarian ,Kosher",$$$
+PJ's Coffee of New Orleans,"Jackson, Mississippi","European,Chinese",4.2,"Vegan ,Kosher",$
+Aladdin Mediterranean Grill,"Jackson, Mississippi",Mediterranean,4.3,"Vegetarian, Vegan",$$
+Thai Siam,"Jackson, Mississippi","Asian,American,Japanese",4.5,"Nut-Free,Vegan",$$
+Sakura Bana Japanese Steakhouse,"Jackson, Mississippi","Japanese,Asian",4.4,"Nut-Free,Halal",$$
+India Palace,"Jackson, Mississippi","Indian,American,Japanese",4.2,"Vegetarian,,Nut-Free,Vegan",$$
+Mayflower Cafe,"Jackson, Mississippi",American,4.1,"Halal,Diary-Free",$
+The Iron Horse Grill,"Jackson, Mississippi","American,Asian",4.3,"Gluten-Free ,Kosher",$$
+Starkville Cafe,"Starkville, Mississippi",Mediterranean,4.4,"Vegetarian ,Kosher",$
+Two Sisters Kitchen,"Jackson, Mississippi",Mexican,4.5,"Vegetarian ,Nut-Free",$
+The Dinner Bell,"McComb, Mississippi","Chinese,European",4.3,"Halal,Diary-Free",$
+Tabella,"Hattiesburg, Mississippi",Italian,4.4,"Vegetarian ,Kosher,Halal",$$
+Cock of the Walk,"Ridgeland, Mississippi","Mexican,Japanese",4.2,"Halal,Diary-Free,Gluten-Free ",$$
+The Little Dooey,"Starkville, Mississippi","American,Japanese",4.5,"Halal,Diary-Free",$
+Petra Cafe,"Jackson, Mississippi","Mediterranean,Chinese,Asian",4.3,"Vegetarian,Vegan,Halal",$$
+Aplos Restaurant,"Oxford, Mississippi","European,Italian",4.4,"Vegetarian ,Kosher",$$
+The Rooster,"Jackson, Mississippi",American,4.2,"Vegetarian ,Kosher,Gluten-Free ",$
+The Biscuit Shop,"Jackson, Mississippi","Mexican,Asian",4.3,"Vegetarian ,Kosher",$
+The Sumo Japanese Steakhouse,"Biloxi, Mississippi",Japanese,4.4,Nut-Free,$$
+China King,"Oxford, Mississippi","Chinese,Italian",4.1,"Nut-Free,Halal",$
+The Mediterranean Grill,"Oxford, Mississippi","Mediterranean,Chinese",4.3,"Vegetarian, Vegan",$$
+The Crown Restaurant,"Indianola, Mississippi",American,4.2,"Halal,Diary-Free",$
+The Twisted Italian,"Biloxi, Mississippi","Italian,European",4.4,"Vegetarian ,Kosher",$$
+The Shed Barbeque & Blues Joint,"Ocean Springs, Mississippi","American,Chinese",4.5,"Halal,Diary-Free",$$
+The Half Shell Oyster House,"Biloxi, Mississippi","Mediterranean,European",4.3,"Gluten-Free ,Kosher",$
+The Sicilian II,"Biloxi, Mississippi","Italian,Asian",4.2,"Vegetarian ,Kosher",$$
+The Indian Grill,"Tupelo, Mississippi","Indian,Japanese,Asian",4.3,"Vegetarian, Vegan,Nut-Free",$$
+Sushi Hana,"St. Louis, Missouri","American,European",4.5,Nut-free,$$
+Nami Ramen,"Kansas City, Missouri","Japanese,American",4.3,Dairy-free,$$
+Drunken Fish,"St. Louis, Missouri","Japanese,Asian",4.2,Vegetarian,$$
+Rasoi,"St. Louis, Missouri",Indian,4.6,Vegetarian,$$
+Gokul,"Columbia, Missouri","Indian,Mediterranean",4.4,Vegan,$
+Taj Mahal,"St. Louis, Missouri","Indian,American,Asian",4.5,Halal,$$
+Peking Garden,"St. Louis, Missouri","Chinese,Mediterranean",4.1,Nut-free,$
+Joy Luck Buffet,"Kansas City, Missouri","Chinese,Japanese",3.9,Vegetarian,$
+Red House,"St. Louis, Missouri","Chinese,Japanese,American",4.3,Gluten-free,$$
+Olive + Oak,"St. Louis, Missouri","Mediterranean,Italian",4.7,Vegetarian,$$$
+Acero,"St. Louis, Missouri","Italian,Asian",4.5,Gluten-free,$$$
+Louie,"St. Louis, Missouri",Italian,4.6,Vegetarian,$$
+The Pasta House,"St. Louis, Missouri","Italian,European,Indian",4.2,Vegetarian,$$
+Charlie Gitto's,"St. Louis, Missouri","Italian,European",4.4,Vegetarian,$$
+Zia's Restaurant,"St. Louis, Missouri","Italian,American",4.3,Vegetarian,$$
+Balkan Treat Box,"St. Louis, Missouri","European,Asian",4.8,Vegetarian,$$
+Cafe Natasha,"Kansas City, Missouri",Mediterranean,4.5,Halal,$$
+The Scottish Arms,"St. Louis, Missouri","European,Italian",4.4,Vegetarian,$$$
+Vin de Set,"St. Louis, Missouri","European,Chinese",4.5,Vegetarian,$$$
+Peacemaker Lobster & Crab,"St. Louis, Missouri","Mexican,European,Italian",4.6,Nut-free,$$
+Indo,"St. Louis, Missouri","Asian,Japanese",4.7,Vegan,$$
+Sen Thai,"St. Louis, Missouri","Asian,Mediterranean,Japanese",4.4,Vegetarian,$$
+Thai Table,"Columbia, Missouri","Asian,European",4.3,Gluten-free,$$
+Mission Taco Joint,"St. Louis, Missouri","Mexican,Chinese",4.5,Vegetarian,$
+Rosalita's Cantina,"Kansas City, Missouri","Mexican,Japanese",4.2,Vegetarian,$$
+Ixtapa Mexican Restaurant,"Jefferson City, Missouri","Mexican,American",4.1,Vegetarian,$$
+Pueblo Solis,"Springfield, Missouri","Mexican,Mediterranean",4,Vegetarian,$$
+Lona's Lil Eats,"St. Louis, Missouri","Asian,Mediterranean",4.6,Vegan,$$
+Lulu's Local Eatery,"St. Louis, Missouri","American,Japanese",4.5,Vegetarian,$$
+Frida's,"Kansas City, Missouri","Mexican,European,American",4.4,Vegetarian,$$$
+The Keep Restaurant,"Missoula, Montana","European,Italian,Asian",4.6,"Vegetarian,Nut-Free",$$$
+Bridge Pizza,"Missoula, Montana","Asian,Indian",4.5,"Vegetarian, Vegan",$$
+Five on Black,"Bozeman, Montana","Mexican,Mediterranean,Indian",4.4,"Gluten-Free,Halal",$$
+Caffe Dolce,"Bozeman, Montana","Italian,Chinese,Japanese",4.7,Vegetarian,$$
+Mustard Seed,"Bozeman, Montana","American,European,Asian",4.3,"Nut-Free,Vegan",$$
+Pangea,"Missoula, Montana","Asian,Japanese",4.5,"Vegetarian, Vegan",$$
+Scotty's Table,"Missoula, Montana","American,Chinese",4.6,"Gluten-Free,Nut-Free",$$$
+The Red Bird,"Helena, Montana","American,Mediterranean",4.4,"Vegetarian,Gluten-Free,Kosher",$$
+Plonk,"Bozeman, Montana","Japanese,Indian,Asian",4.5,"Vegetarian,Vegan",$$$
+Blackbird Kitchen,"Missoula, Montana","American,Steakhouse,Mexican",4.6,"Gluten-Free,Halal",$$
+Tamarack Brewing Company,"Lakeside, Montana","American,European,Indian",4.3,Vegetarian,$$
+The Silk Road,"Bozeman, Montana","Mediterranean,Chinese",4.5,"Vegetarian, Vegan",$$
+Montana Club,"Billings, Montana","American,Chinese,Asian",4.2,"Nut-Free,Vegan",$$
+Dave's Sushi,"Missoula, Montana","Japanese,Indian",4.5,Vegetarian,$$
+The Soup Shack,"Bozeman, Montana","American,Chinese,Asian",4.3,"Vegetarian,Halal",$$
+Biga Pizza,"Missoula, Montana","Italian,European,Indian",4.6,"Vegetarian,Gluten-Free",$$$
+The Catalyst Cafe,"Missoula, Montana","American,Indian,Chinese",4.4,"Vegetarian,Kosher",$$
+Second Set Bistro,"Whitefish, Montana","French,European,Japanese",4.7,Vegetarian,$$
+The Shak,"Whitefish, Montana","American,Indian,Mediterranean",4.5,"Vegetarian,Vegan",$$
+The Dining Car at the Depot,"Missoula, Montana","American,European",4.6,Vegetarian,$$
+The Notorious P.I.G.,"Billings, Montana","American,Steakhouse,Mexican",4.4,"Nut-Free,Kosher,Diary-Free",$$
+The Burger Dive,"Billings, Montana","American,Mediterranean",4.5,"Vegetarian,Gluten-Free",$$
+The Roost,"Bozeman, Montana","American,Chinese",4.3,"Vegetarian,Nut-Free",$$
+The Montana Rib and Chop House,"Billings, Montana","Steakhouse,American,Chinese",4.5,"Vegetarian,Kosher",$$
+The Fieldhouse,"Missoula, Montana","American,European,Mediterranean",4.4,"Vegetarian,Kosher",$$
+The Staggering Ox,"Helena, Montana","American,Japanese,Mediterranean",4.3,"Vegetarian,Nut-Free",$$
+The Soup Bar,"Bozeman, Montana","American,Indian,",4.2,"Vegetarian,Vegan",$$
+The Burger Shack,"Billings, Montana","American,Steakhouse,Mexican",4.4,"Vegetarian,Gluten-Free",$$
+The Taco Treat,"Billings, Montana","Mexican,Indian,Asian",4.3,"Vegetarian,Kosher",$$
+The Wren,"Missoula, Montana","American,European,Chinese",4.5,"Vegetarian,Vegan",$$
+Raku,"Las Vegas, Nevada","Japanese,Indian,Mediterranean",4.8,"Nut-Free,Halal",$$$
+Lotus of Siam,"Las Vegas, Nevada","Asian,Japanese,Chinese,Indian",4.7,Vegetarian,$$
+Kabuto Edomae Sushi,"Las Vegas, Nevada","Japanese,Chinese,Mexican",4.9,"Nut-Free,Kosher",$$$
+Sparrow + Wolf,"Las Vegas, Nevada","Mexican,Mediterranean,American",4.6,Vegetarian,$$$
+La Strega,"Las Vegas, Nevada","Italian,Chinese,Mexican",4.5,"Vegetarian,Kosher",$$$
+Echo & Rig,"Las Vegas, Nevada","American,Steakhouse,Asian",4.4,Gluten-Free,$$$
+Tacos El Gordo,"Las Vegas, Nevada","Mexican,Mediterranean,Asian",4.3,Vegetarian,$
+Shanghai Taste,"Las Vegas, Nevada","Chinese,Indian,Japanese,Asian",4.2,"Nut-Free,Diary-Free",$$
+Saffron Flavors of India,"Las Vegas, Nevada","Indian,Japanese,Asian,American",4.5,"Vegetarian, Vegan",$$
+Paymon's Mediterranean,"Las Vegas, Nevada","Mediterranean,American",4.4,Vegetarian,$$
+La Vecindad,"Las Vegas, Nevada","Mexican,Japanese,Chinese,American",4.3,"Vegetarian,vegan,Halal",$$
+Trattoria Reggiano,"Las Vegas, Nevada","Italian,Mediterranean",4.5,Vegetarian,$
+Gabi Coffee & Bakery,"Las Vegas, Nevada","European,Mediterranean,Asian",4.2,"Vegan,Halal",$
+Tofu Hut,"Las Vegas, Nevada","Asian,Indian,Chinese",4.1,"Vegan,Kosher",$$
+Black Sheep,"Las Vegas, Nevada","American,Mexican,Indian",4.6,"Vegetarian,Vegan",$$
+Dish,"Omaha, Nebraska","American,European",4.5,Vegetarian,$$$
+The Grey Plume,"Omaha, Nebraska","Chinese,American,Mediterranean",4.7,Gluten-Free,$$
+Maharaja Indian Cuisine,"Omaha, Nebraska","Indian,European,Asian",4.3,"Vegetarian, Vegan",$$$
+Blue Sushi Sake Grill,"Omaha, Nebraska","Japanese,American,Chinese",4.6,Nut-Free,$$
+Spezia,"Omaha, Nebraska","Italian,European,Mediterranean",4.4,Vegetarian,$
+La Casa Pizzaria,"Lincoln, Nebraska","Italian,Asian,Chinese",4.2,Vegetarian,$$
+The Himalayan,"Lincoln, Nebraska","Indian,Chinese,Mediterranean",4.5,"Halal,Diary-Free",$$
+Pita & Naan,"Omaha, Nebraska","Mediterranean,Asian",4.3,"Vegetarian, Vegan",$$
+M's Pub,"Omaha, Nebraska","American,Indian",4.4,"Vegetarian,Kosher",$$
+Lalibela Ethiopian Restaurant,"Omaha, Nebraska","European,American,Mediterranean",4.6,"Vegan,Diary-Free",$$$
+Stokin' Goat,"Lincoln, Nebraska","American,Asian,Mediterranean",4.5,Gluten-Free,$$
+Vincenzo's Ristorante,"Omaha, Nebraska","Italian,Indian,Mediterranean",4.4,Vegetarian,$
+The Oven,"Lincoln, Nebraska","Indian,Asian,Chinese",4.3,"Vegetarian,Diary-Free",$$
+Feta's Greek Cuisine,"Omaha, Nebraska","European,Indian,American",4.2,Vegetarian,$$
+AmuManu Ramen,"Lincoln, Nebraska","Japanese,European,Asian",4.5,"Nut-Free,Kosher",$
+Agricola,"Princeton, New Jersey","American,Asian,Mexican",4.5,"Vegetarian,Halal,Diary-Free",$$$
+Ariana Kabob & Gyro,"Paterson, New Jersey","Mediterranean,Japanese",4.6,Halal,$
+Cafe Matisse,"Rutherford, New Jersey","European,Mexican",4.7,Vegetarian,$$$
+Crown Palace,"Edison, New Jersey","Chinese,Japanese",4.2,Nut-Free,$$
+Dhaba,"Jersey City, New Jersey","Indian,Chinese",4.4,"Vegetarian,Vegan",$$
+Dim Sum Dynasty,"Marlboro, New Jersey","Chinese,Asian",4.3,Nut-Free,$$
+Europa South,"Jersey City, New Jersey","European,Chinese",4.5,Gluten-Free,$$$
+Fascino,"Montclair, New Jersey","Italian,European",4.6,Vegetarian,$$
+Hunan Taste,"Edison, New Jersey","Chinese,Mexican,Asian",4.4,Nut-Free,$$$
+Ichiran,"Newark, New Jersey","Japanese,Chinese",4.8,"Halal,Vegan,Kosher",$$$
+Komegashi,"Edgewater, New Jersey","Japanese,Mediterranean",4.5,Vegetarian,$
+Kurofune,"Princeton, New Jersey","Japanese,European",4.6,Nut-Free,$$$
+La Isla,"Hoboken, New Jersey","Mexican,Asian",4.4,"Vegetarian,Halal,Diary-Free",$
+Lorena's,"Maplewood, New Jersey","European,Chinese",4.7,Vegetarian,$$$
+Mamoun's Falafel,"New Brunswick, New Jersey",Mediterranean,4.3,"Vegetarian,Vegan",$$$
+Mantra,"Jersey City, New Jersey","Indian,European",4.5,"Vegetarian, Halal",$$$
+Maritime Parc,"Jersey City, New Jersey","American,Asian",4.6,"Gluten-Free,Halal,Diary-Free",$$
+Matsu,"Fort Lee, New Jersey","Japanese,Asian",4.7,Nut-Free,$
+Mediterra,"Princeton, New Jersey",Mediterranean,4.5,"Vegetarian,Gluten-Free",$$
+Mitsuwa Marketplace,"Edgewater, New Jersey","Japanese,Asian,Mexican",4.4,Vegetarian,$$$
+Mogador,"New York, New Jersey","Mediterranean,Asian,Chinese",4.5,Vegetarian,$$$
+Noodlefan,"Jersey City, New Jersey","Asian,Mediterranean",4.3,Nut-Free,$$
+Osteria Morini,"Jersey City, New Jersey","Italian,European,Mexican",4.6,"Vegetarian,Halal,Diary-Free",$$
+Pascal & Sabine,"Hoboken, New Jersey","Mediterranean,European",4.7,Gluten-Free,$
+Ramen Nagomi,"Montclair, New Jersey","Japanese,Chinese",4.5,Vegetarian,$$
+Rasoi,"Edison, New Jersey","Indian,European,Japanese",4.4,"Vegetarian,Vegan",$$
+Sagami,"Collingswood, New Jersey",Japanese,4.6,Vegetarian,$$
+Sapthagiri,"Edison, New Jersey","Indian,Asian,Chinese",4.3,Vegetarian,$
+Taco Truck,"Jersey City, New Jersey","Mexican,European,Asian",4.2,"Halal,Vegan,Kosher",$$
+Taste of Asia,"Edison, New Jersey","Asian,Mexican,Mediterranean",4.4,Nut-Free,$$
+The Copper Door,"Bedford, New Hampshire",American,4.6,"Gluten-Free,Halal,Diary-Free",$$$
+Green Elephant,"Portsmouth, New Hampshire",Asian,4.5,"Vegan,Vegetarian,Dairy-Free",$$
+Shalimar India,"Nashua, New Hampshire",Indian,4.3,"Vegetarian,Halal,Kosher",$$
+Hiro Japanese Restaurant,"Portsmouth, New Hampshire",Japanese,4.7,"Nut-Free,Kosher",$$$
+Thyme Kitchen,"Exeter, New Hampshire",Mediterranean,4.4,"Vegetarian, Gluten-Free",$$
+The Black Birch,"Kittery, New Hampshire",American,4.6,"Vegetarian,Halal,Diary-Free",$$$
+Street,"Portsmouth, New Hampshire",European,4.5,"Dairy-Free,Halal,Diary-Free",$$
+The Wellington Room,"Portsmouth, New Hampshire",European,4.4,"Gluten-Free,Dairy-Free",$
+Annapurna Authentic Cuisine of India,"Manchester, New Hampshire",Indian,4.2,"Vegetarian,Kosher",$$
+Flatbread Company,"Portsmouth, New Hampshire",Italian,4.3,"Vegetarian,Vegan",$$
+La Festa Brick & Brew Pizzeria,"Manchester, New Hampshire",Italian,4.5,"Vegetarian,Dairy-Free",$$
+The Red Blazer,"Concord, New Hampshire",American,4.1,"Halal,Vegan,Kosher",$$$
+Moxy,"Portsmouth, New Hampshire",Tapas,4.7,"Vegetarian, Vegan,Kosher",$$
+The Black Trumpet,"Portsmouth, New Hampshire",Mediterranean,4.6,"Vegetarian,Gluten-Free",$$
+The Rosa Restaurant,"Manchester, New Hampshire",Italian,4.3,"Vegetarian,Halal,Diary-Free",$$
+Sakura Sushi,"Albuquerque, New Mexico","Japanese,Chinese,Mexican",4.3,Nut-free,$$
+Naruto Japanese Restaurant,"Albuquerque, New Mexico","Japanese,Asian,European",4.1,Dairy-free,$$
+Taj Mahal Cuisine of India,"Albuquerque, New Mexico","Indian,Asian,Japanese",4.4,Vegetarian,$$
+India Palace,"Albuquerque, New Mexico","Indian,Chinese,Mexican",4.2,Vegan,$$
+Chopstix Asian Bistro,"Albuquerque, New Mexico","Asian,Indian,European",4,Nut-free,$
+Great Wall Chinese Restaurant,"Albuquerque, New Mexico","Chinese,Asian,Indian",4.1,Gluten-free,$
+Mesa Asian Bistro,"Albuquerque, New Mexico","Asian,Japanese,Chinese",4.3,Vegetarian,$$
+La Placita Dining Rooms,"Albuquerque, New Mexico","Mexican,Italian,European",4.5,"Halal,Vegan,Kosher",$$$
+El Pinto Restaurant,"Albuquerque, New Mexico","Mexican,Asian,Indian",4.4,"Vegetarian ,Halal,Diary-Free",$$
+D.H. Lescombes Winery & Bistro,"Albuquerque, New Mexico","European,Chinese,Italian",4.2,"Vegetarian ,Halal,Diary-Free",$$$
+Artichoke Café,"Albuquerque, New Mexico","American,Japanese,Indian",4.5,Vegetarian,$$$
+Farm & Table,"Albuquerque, New Mexico","American,Indian,Chinese",4.6,"Vegetarian, Vegan",$$
+Zinc Wine Bar & Bistro,"Albuquerque, New Mexico","European,Japanese,Italian",4.4,"Vegetarian ,Halal,Diary-Free",$$$
+Antiquity Restaurant,"Albuquerque, New Mexico","American,Japanese,Italian",4.3,Gluten-free,$$$
+Vinaigrette,"Santa Fe, New Mexico","American,Chinese,European",4.5,"Vegetarian,Nut-freeVegan",$$
+The Grove Café & Market,"Albuquerque, New Mexico","American,Asian,Mexican",4.4,"Vegetarian,Nut-free,Gluten-free",$$
+Farina Alto Pizzeria & Wine Bar,"Albuquerque, New Mexico","Italian,European",4.3,Vegetarian,$$$
+Paisano's Italian Restaurant,"Albuquerque, New Mexico","Italian,Chinese",4.2,"Vegetarian ,Halal,Diary-Free",$$$
+Scalo Northern Italian,"Albuquerque, New Mexico","Italian,European",4.5,"Vegetarian ,Halal,Diary-Free",$$$
+M'Tucci's Italian,"Albuquerque, New Mexico","Italian,Japanese,Indian",4.4,"Vegetarian ,Halal,Diary-Free",$$$
+Sassella Italian,"Albuquerque, New Mexico","Italian,Mexican",4.3,"Vegetarian ,Halal,Diary-Free",$$$
+Sazón,"Santa Fe, New Mexico","Mexican,European",4.7,"Halal,Vegan,Kosher",$$
+Terra Restaurant,"Santa Fe, New Mexico","American,Indian",4.5,"Vegetarian, Gluten-free",$$
+Campo at Los Poblanos,"Los Ranchos de Albuquerque, New Mexico","Mediterranean,European",4.6,"Vegetarian, Vegan",$
+Vernon's Speakeasy,"Albuquerque, New Mexico","American,Italian",4.4,"Halal,Vegan,Kosher",$
+The Range Café,"Albuquerque, New Mexico","American,Japanese",4.3,"Vegetarian ,Halal,Diary-Free",$$
+Sadie's of New Mexico,"Albuquerque, New Mexico","Mexican,Asian,Italian",4.5,"Halal,Vegan,Kosher",$$$
+Mary & Tito's Café,"Albuquerque, New Mexico","Mexican,Asian,Indian",4.4,"Halal,Vegan,Kosher",$$  
+Padilla's Mexican Kitchen,"Albuquerque, New Mexico","Mexican,Indian,Chinese",4.3,"Halal,Vegan,Kosher",$  
+El Farol,"Santa Fe, New Mexico","Mediterranean,Asian,Japanese",4.5,"Vegetarian ,Halal,Diary-Free",$$  
+Katz's Delicatessen  ,New York,"American,Mexican,Italian",4.5,"Vegetarian ,Halal,Diary-Free",$$$  
+Xi'an Famous Foods  ,New York,"Chinese,Asian,Indian,American  ",4.4,Gluten-free,$$  
+Ippudo NY  ,New York,"Japanese,Asian,Chinese   ",4.6,"Vegetarian,Nut-freeVegan",$$$  
+Tamarind Tribeca  ,New York,"Indian,Italian,Mediterranean ",4.3,"Vegetarian,Nut-free,Gluten-free",$$$  
+Laut  ,New York,"Asian,Chinese,European,American   ",4.2,Vegetarian,$$$  
+Il Buco  ,New York,"Italian ,Chinese,Indian",4.7,"Vegetarian ,Halal,Diary-Free",$$  
+Lilia  ,New York,"Italian ,Indian,European ",4.8,"Vegetarian ,Halal,Diary-Free",$$  
+Via Carota  ,New York,"Italian ,Mediterranean ,Mexican",4.7,"Vegetarian ,Halal,Diary-Free",$$$  
+Olive Garden Times Square  ,New York,"Italian,European,Mexican,,American   ",3.9,"Vegetarian ,Halal,Diary-Free",$$$  
+Jajaja Mexicana  ,New York,"Mexican,Asian,Indian",4.5,"Halal,Vegan,Kosher",$$  
+Semma  ,New York,"Indian,Chinese,Italian",4.6,"Vegetarian, Gluten-free",$$$  
+Dhamaka  ,New York,"Indian,Asian,Chinese",4.7,"Vegetarian, Vegan",$$  
+Rosella  ,New York,"European,Asian,Chinese   ",4.4,"Halal,Vegan,Kosher",$  
+The Musket Room  ,New York,"European,Italian,Mexican  ",4.5,"Vegetarian ,Halal,Diary-Free",$$$  
+Cafe Mogador  ,New York,"Mediterranean,Asian,European ",4.3,"Halal,Vegan,Kosher",$$$  
+Buddha Bodai  ,New York,"Chinese,Italian,European,American  ",4.1,"Halal,Vegan,Kosher",$$  
+Sushi Nakazawa  ,New York,"Japanese,Asian,Indian",4.8,"Halal,Vegan,Kosher",$$  
+Sushi Yasuda  ,New York,"Japanese,Chinese,Mexican  ",4.7,"Vegetarian ,Halal,Diary-Free",$$$  
+Totto Ramen  ,New York,"Japanese,Italian,European  ",4.4,"Vegetarian,Gluten-Free",$$$  
+Han Dynasty  ,New York,"Chinese,Asian,Mediterranean   ",4.3,"Vegetarian,Halal,Diary-Free",$$$  
+Blue Hill  ,New York,"American,Indian,Mexican",4.6,Nut-free,$$  
+ABC Kitchen  ,New York,"American,Italian,Mexican ",4.5,Dairy-free,$$$  
+Cosme  ,New York,"Mexican ,Asian,Indian",4.7,Vegetarian,$$
+Miss Ada  ,New York,"Mediterranean,Italian  ",4.5,Vegan,$
+Gramercy Tavern  ,New York,"American,Asian,Mediterranean ",4.7,Nut-free,$$
+Bida Manda  ,North Carolina,"Asian,Mexican,Italian  ",4.7,Vegetarian  ,$$  
+Sitti  ,North Carolina,"Chinese,American,Mediterranean ",4.5,Vegetarian  ,$$  
+M Sushi  ,North Carolina,"Japanese,Asian,Chinese  ",4.8,Nut-Free  ,$$$  
+Crawford and Son  ,North Carolina,"Indian,American,Mediterranean  ",4.6,Vegetarian  ,$$$  
+Death & Taxes  ,North Carolina,"Asian,Chinese,European,American  ",4.5,Vegetarian  ,$$$  
+Poole's Diner  ,North Carolina,"Italian,Chinese,Indian  ",4.6,Vegetarian  ,$$$  
+Mandolin  ,North Carolina,"Italian,Indian,European  ",4.4,Vegetarian  ,$$  
+Stanbury  ,North Carolina,"Italian,Mediterranean,Mexican  ",4.7,Vegetarian  ,$$$  
+Brewery Bhavana  ,North Carolina,"Italian,European,Mexican,American  ",4.6,Vegetarian  ,$$$  
+Garland  ,North Carolina,"Mexican,Asian,Indian  ",4.5,Vegetarian  ,$$  
+Jujube  ,North Carolina,"Indian,Chinese,Italian  ",4.4,Vegetarian  ,$$  
+M Kokko  ,North Carolina,"Indian,Asian,Japanese ",4.6,Nut-Free  ,$$  
+Saltbox Seafood Joint  ,North Carolina,"European,Asian,Chinese   ",4.5,Nut-Free  ,$$  
+The Fearrington House Restaurant  ,North Carolina,"European,Italian,Mexican  ",4.8,Vegetarian  ,$$$  
+Lantern ,North Carolina,"Mediterranean,Asian,European ",4.7,Vegetarian ,$$$
+The Refectory  ,"Columbus, Ohio  ","Asian,European  ",4.8,"Vegetarian, Gluten-Free  ",$$$  
+Katzinger’s Delicatessen  ,"Columbus, Ohio  ","American,European  ",4.6,Kosher  ,$$  
+Nida’s Thai on High  ,"Columbus, Ohio  ","Asian,Japanese,European  ",4.5,"Nut-Free, Vegan  ",$$  
+Basi Italia  ,"Columbus, Ohio  ","Italian,European,Mediterranean",4.7,Vegetarian  ,$$$  
+Service Bar  ,"Columbus, Ohio  ","Asian,Chinese,Indian ",4.4,"Nut-Free,Diary-Free  ",$$  
+Ambar India  ,"Columbus, Ohio  ","Indian,Asian,Chinese",4.3,"Vegetarian, Vegan  ",$$  
+J. Liu Restaurant & Bar  ,"Columbus, Ohio  ","Asian,Indian,Japanese  ",4.2,Nut-Free  ,$$  
+Mazah Mediterranean Eatery  ,"Columbus, Ohio  ","Mediterranean,European,American ",4.5,"Halal, Vegan  ",$$  
+Si Señor Peruvian Kitchen  ,"Columbus, Ohio  ","Mediterranean,Chinese,American  ",4.6,Nut-Free    ,$$  
+The Pearl  ,"Columbus, Ohio  ","American,Mediterranean  ",4.4,"Vegetarian,Vegan,Kosher  ",$$  
+Tensuke Express  ,"Columbus, Ohio  ","Japanese,Chinese,Asian  ",4,"Nut-Free, Dairy-Free  ",$  
+Yellowtail Sushi  ,"Columbus, Ohio  ","Japanese,Indian,European ",4.5,NoVeganne  ,$$  
+Los Gauchos  ,"Columbus, Ohio  ","Mexican,Mediterranean ,American",4.7,Kosher  ,$  
+Greenhouse Tavern  ,"Cleveland, Ohio  ","American,Mediterranean,Chinese",4.3,Vegetarian  ,$$  
+Al’s Deli,"Cincinnati, Ohio ","Chinese,American,European",4.1,Kosher ,$  
+Toasted Frog  ,"Fargo, North Dakota  ","American,Japanese,Asian  ",4.5,"Vegetarian, Gluten-Free  ",$$  
+Pounds  ,"Grand Forks, North Dakota  ","American,Steakhouse,Chinese  ",4.6,Diary-Free  ,$$$  
+Mezzaluna  ,"Fargo, North Dakota  ","Italian,Mexican,American ",4.7,Vegetarian  ,$$$  
+Passage to India  ,"Fargo, North Dakota  ","Indian,Chinese,Italian  ",4.3,"Vegetarian, Vegan  ",$$  
+Sickies Garage Burgers & Brews  ,"Fargo, North Dakota  ","American,Indian,European ",4.2,Nut-Free  ,$$  
+Spicy Pie  ,"Fargo, North Dakota  ","Italian,Chinese,European",4,Vegetarian  ,$  
+HoDo  ,"Fargo, North Dakota  ","Mexican,American,European  ",4.4,"Vegan,Halal  ",$$  
+Thai Orchid Cafe  ,"Bismarck, North Dakota  ","Asian,American,Mexican ",4.5,Nut-Free  ,$$  
+Cafe Aladdin  ,"Fargo, North Dakota  ","Mediterranean,Italian  ",4.6,"Halal, Vegan  ",$  
+Luna Fargo  ,"Fargo, North Dakota  ","European,Chinese,Italian ",4.3,Vegetarian  ,$$  
+Wurst Bier Hall  ,"Fargo, North Dakota  ","European,Italian,Chinese  ",4.1,Kosher  ,$$  
+Plains Art Museum Café  ,"Fargo, North Dakota  ","American,Mexican,Asian  ",4,"Vegetarian,Kosher  ",$  
+Kingpinz  ,"West Fargo, North Dakota  ","American,Mediterranean,Mexican  ",4.2,Nut-Free  ,$$  
+Mango’s Mexican Grill  ,"Bismarck, North Dakota  ","Chinese,Asian,Japanese,European ",4.3,Vegetarian  ,$  
+Fryin’ Pan ,"Fargo, North Dakota","Mexican,American,Mediterranean  ",4.4,Gluten-Free,$ 
+Afuri Ramen + Dumpling,"Portland, Oregon","Japanese,Mediterranean,Indian,European",4.6,Nut-free,$$
+Bollywood Theater,"Portland, Oregon","Indian,Japanese,Mediterranean",4.5,Vegetarian,$
+HK Cafe,"Portland, Oregon","Chinese,Japanese,Mediterranean",4.3,Kosher,$
+Mediterranean Exploration Company,"Portland, Oregon","Mediterranean,Chinese,Indian",4.7,Gluten-free,$$$
+Gino's Italian Restaurant,"Portland, Oregon","Italian,Chinese,Indian,European",4.4,Dairy-free,$$
+Hat Yai,"Portland, Oregon","Asian,Japanese,Indian,Mexican",4.6,Nut-free,$$
+Nong's Khao Man Gai,"Portland, Oregon","Asian,Chinese,Indian,European",4.5,Halal,$
+Tusk,"Portland, Oregon","Mediterranean,Mexican,European",4.7,"Vegetarian, Vegan",$$$
+DarSalam,"Portland, Oregon","Indian,Mexican,Italian,European",4.4,Halal,$$
+Bete-Lukas Ethiopian,"Portland, Oregon","Japanese,Asian,Chinese,Indian,Italian",4.5,"Vegetarian, Vegan",$
+Por Qué No Taqueria,"Portland, Oregon","Mexican,Japanese,Italian",4.6,Vegetarian,$$
+Marukin Ramen,"Portland, Oregon","Japanese,Asian,Chinese,Mexican",4.5,Nut-free,$$$
+Farm Spirit,"Portland, Oregon","Japanese,Asian,Mexican,Italian",4.8,Vegan,$
+Nicholas Restaurant,"Portland, Oregon","Mediterranean,Asian,Chinese",4.4,Vegetarian,$$
+Piazza Italia,"Portland, Oregon","Italian,Mediterranean,Asian,European",4.5,Gluten-free,$$
+Goro Ramen,"Oklahoma City, Oklahoma","Indian,Japanese,American",4.5,Gluten-Free,$$$
+Mahogany Prime Steakhouse,"Oklahoma City, Oklahoma","Chinese,Japanese,Mediterranean",4.7,Nut-free,$$
+Taj Cuisine of India,"Norman, Oklahoma","Mediterranean,Chinese,Indian",4.4,Vegetarian,$$
+Szechuan Bistro,"Edmond, Oklahoma","Italian,Chinese,Indian,European",4.2,Kosher,$
+Mediterranean Imports & Deli,"Oklahoma City, Oklahoma","Asian,Japanese,Indian,Mexican",4.6,Gluten-free,$$$
+Patrono Italian Restaurant,"Oklahoma City, Oklahoma","Italian,Asian,Chinese,Indian",4.5,Dairy-free,$$
+Cafe do Brasil,"Oklahoma City, Oklahoma","Mediterranean,Mexican,European",4.3,Nut-free,$
+Zorba's Greek Cuisine,"Norman, Oklahoma","Indian,Mexican,Italian,European",4.4,Halal,$$
+Big Truck Tacos,"Oklahoma City, Oklahoma","Japanese,Asian,Chinese,Indian,Italian",4.6,"Vegetarian, Vegan",$$
+Sushi Neko,"Oklahoma City, Oklahoma","Mexican,Japanese,Italian",4.5,Halal,$
+The Loaded Bowl,"Oklahoma City, Oklahoma","Japanese,Asian,Chinese,Mexican",4.8,"Vegetarian, Vegan",$$
+The Halal Guys,"Norman, Oklahoma","Japanese,Asian,Mexican,Italian",4.3,Vegetarian,$
+Queen of Sheba Ethiopian,"Oklahoma City, Oklahoma","Mediterranean,Asian,Chinese",4.5,Nut-free,$$
+Kaiser's Grateful Bean Cafe,"Tulsa, Oklahoma","Italian,Mediterranean,Asian,European",4.2,Vegan,$$
+The Pritchard Wine Bar,"Tulsa, Oklahoma","Mediterranean,European,American ",4.4,Halal,$$
+Zahav,"Philadelphia, Pennsylvania","Mediterranean,Indian,Japanese,American",4.8,"Gluten-Free,Vegan",$$$
+Suraya,"Philadelphia, Pennsylvania","Chinese,Japanese,Mediterranean",4.7,"Vegetarian, Vegan",$$$
+Morimoto,"Philadelphia, Pennsylvania","Mediterranean,Chinese,Indian,Japanese",4.6,"Nut-Free,Kosher",$$$
+Hiroki,"Philadelphia, Pennsylvania","Japanese,Chinese,Indian,European",4.5,Nut-Free,$$$
+Amma's South Indian Cuisine,"Pittsburgh, Pennsylvania","Asian,Japanese,Indian,Mexican",4.4,"Vegetarian, Vegan",$$
+Tiffin,"Philadelphia, Pennsylvania","Italian,Asian,Chinese,Indian",4.3,Vegetarian,$$
+Dim Sum House,"Philadelphia, Pennsylvania","Mediterranean,Mexican,European",4.2,Nut-Free,$
+Han Dynasty,"Philadelphia, Pennsylvania","Indian,Mexican,Italian,European",4.5,Dairy-Free,$$
+Cafe La Maude,"Philadelphia, Pennsylvania","Japanese,Asian,Chinese,Indian,Italian",4.6,Vegetarian,$$
+The Love,"Philadelphia, Pennsylvania","Mexican,Japanese,Italian,American",4.4,"Vegetarian,Kosher",$$
+Alma Mater,"Philadelphia, Pennsylvania","Japanese,Asian,European,Mexican",4.3,"Vegetarian, Gluten-Free",$$
+Los Camaradas,"Philadelphia, Pennsylvania","Japanese,Asian,Mexican,Italian",4.2,Vegetarian,$
+Vernick Food & Drink,"Philadelphia, Pennsylvania","Mediterranean,Asian,Chinese,Mexican",4.7,"Vegetarian,Diary-Free",$$$
+Pizzeria Vetri,"Philadelphia, Pennsylvania","Italian,Mediterranean,Asian,European",4.5,Vegetarian,$$
+Forsythia,"Philadelphia, Pennsylvania","Mediterranean,European,American ",4.4,"Vegetarian, Gluten-Free",$$$
+Halls Chophouse  ,South Carolina,"American,Steakhouse,Mexican",4.8,Gluten-Free  ,$$$$  
+Xiao Bao Biscuit  ,South Carolina,"Asian,Japanese,Chinese,Indian  ",4.6,Vegan  ,$$  
+5Church  ,South Carolina,"American,Mexcian,Italian,European  ",4.4,Vegetarian  ,$$$  
+Coast  ,South Carolina,"Mexcian,Italian,European,Indian   ",4.5,Nut-Free  ,$$$  
+Basil Thai  ,South Carolina,"Asian,Japanese,Chinese,Indian ",4.3,Vegetarian  ,$$  
+Ali Baba Deli  ,South Carolina,"Mediterranean,Italian,Japanese",4.2,Halal  ,$  
+Tokyo Crepe  ,South Carolina,"Japanese,Mexican,American,Asian ",4.5,Nut-Free  ,$$  
+Taco Boy  ,South Carolina,"Mexican,Asian,Mediterranean,Chinese",4.4,Vegetarian  ,$$  
+FIG  ,South Carolina,"Asian,Mexican,American,Mediterranean  ",4.7,Vegetarian  ,$$$  
+The Obstinate Daughter  ,South Carolina,"Italian,European,Asian,Indian ",4.6,Vegetarian  ,$$$  
+Wild Olive  ,South Carolina,"Italian,European,American,Chinese  ",4.5,Vegetarian  ,$$$  
+Edmund's Oast  ,South Carolina,"American,Italian,Indian,Chinese ",4.6,Vegetarian  ,$$$  
+Lewis Barbecue  ,South Carolina,"Mediterranean,European,Japanese",4.7,None  ,$$  
+Jestine's Kitchen  ,South Carolina,"Mediterranean,American,Indian,Chinese",4.4,"Vegetarian,Kosher  ",$$  
+82 Queen  ,South Carolina,"Mediterranean,European,Japanese",4.5,"Vegetarian,Diary-Free ",$$$
+Al Forno  ,"Providence, Rhode Island  ","American,Steakhouse,Mexican",4.8,Gluten-Free  ,$$$
+Los Andes  ,"Providence, Rhode Island  ","Asian,Japanese,Chinese,Indian  ",4.6,Vegan  ,$$$$  
+Tallulah's Taqueria  ,"Providence, Rhode Island  ","American,Mexcian,Italian,European  ",4.4,Vegetarian  ,$$  
+Berkley North  ,"Newport, Rhode Island  ","Mexcian,Italian,European,Indian   ",4.5,Nut-Free  ,$$$  
+CAV Restaurant  ,"Providence, Rhode Island  ","Asian,Japanese,Chinese,Indian ",4.3,Vegetarian  ,$$$  
+Kabob and Curry  ,"Providence, Rhode Island  ","Mediterranean,Italian,Japanese",4.2,Halal  ,$$  
+Rasoi  ,"Pawtucket, Rhode Island  ","Japanese,Mexican,American,Asian ",4.5,Nut-Free  ,$  
+Haruki East  ,"Providence, Rhode Island  ","Mexican,Asian,Mediterranean,Chinese",4.4,Vegetarian  ,$$  
+North  ,"Providence, Rhode Island  ","Asian,Mexican,American,Mediterranean  ",4.7,Vegetarian  ,$$  
+Oberlin  ,"Providence, Rhode Island  ","Italian,European,Asian,Indian ",4.6,Vegetarian  ,$$$  
+The Mooring Seafood Kitchen  ,"Newport, Rhode Island  ","Italian,European,American,Chinese  ",4.5,Vegetarian  ,$$$  
+Pasta Beach  ,"Newport, Rhode Island  ","American,Italian,Indian,Chinese ",4.6,Vegetarian  ,$$$  
+Massimo  ,"Providence, Rhode Island  ","Mediterranean,European,Japanese",4.7,None  ,$$$  
+Pane e Vino  ,"Providence, Rhode Island  ","Mediterranean,American,Indian,Chinese",4.4,"Vegetarian,Kosher  ",$$  
+Brick Alley Pub  ,"Newport, Rhode Island ","Mediterranean,European,Japanese",4.5,"Vegetarian,Diary-Free ",$$  
+Bread & Circus Sandwich Kitchen  ,South Dakota ,"American,Steakhouse,Mexican",4.8,Vegetarian  ,$$$
+Sanaa’s Gourmet Mediterranean  ,South Dakota ,"Mediterranean,Asian,Japanese,Chinese,Indian",4.6,Vegetarian  ,$$
+Jasmine Chinese Restaurant  ,South Dakota ,"American,Mexcian,Chinese,European  ",4.5,Vegetarian  ,$$
+Mama’s Ladas  ,South Dakota ,"Mexcian,Italian,European,Indian   ",4.7,Nut-Free  ,$
+Taj Mahal Indian Cuisine  ,South Dakota ,"Asian,Japanese,Chinese,Indian ",4.4,Nut-Free  ,$$$
+Sushi Masa  ,South Dakota ,"Mediterranean,Italian,Japanese",4.3,Vegetarian  ,$$
+M.B. Haskett Delicatessen  ,South Dakota ,"Japanese,Mexican,American,Asian ",4.2,Vegetarian ,$
+Pho Quynh  ,South Dakota ,"Mexican,Asian,Mediterranean,Chinese",4.5,"Vegetarian, Gluten-Free  ",$$
+Harvest Kitchen  ,South Dakota ,"Asian,Mexican,American,Mediterranean  ",4.6,Kosher  ,$$$
+Parker’s Bistro  ,South Dakota ,"Italian,European,Asian,Indian ",4.4,"Nut-Free, Vegan  ",$
+Minerva’s Restaurant  ,South Dakota ,"Italian,European,American,Chinese  ",4,Vegetarian  ,$$
+Kathmandu Bistro  ,South Dakota ,"Aaian,Italian,Indian,Chinese ",4.5,"Nut-Free,Diary-Free  ",$$
+Giliberto’s Mexican Restaurant  ,South Dakota ,"Mediterranean,European,Japanese",4.7,"Vegetarian, Vegan  ",$$$
+Crawford’s Bar & Grill  ,South Dakota ,"Mediterranean,American,Indian,Chinese",4.3,Nut-Free  ,$$
+The Market,South Dakota ,"Mediterranean,European,Japanese",4.1,"Halal, Vegan  ",$$
+Audrey  ,"Memphis, Tennessee  ","American,Steakhouse,European",4.8,Nut-Free    ,$
+Bastion  ,"Memphis, Tennessee  ","Mediterranean,American,Japanese,Chinese",4.6,"Vegetarian,Vegan,Kosher  ",$$$
+Chaatable  ,"Nashville, Tennessee  ","American,Mexcian,Chinese,Indian  ",4.5,"Nut-Free, Dairy-Free  ",$$
+International Market  ,"Nashville, Tennessee  ","Mexcian,Italian,European,Indian   ",4.4,"Vegetarian ,Halal,Diary-Free",$
+Epice  ,"Nashville, Tennessee  ","Asian,Japanese,Chinese,Indian ",4.7,"Halal,Vegan,Kosher",$$
+Rolf and Daughters  ,"Nashville, Tennessee  ","Mediterranean,Italian,Japanese",4.8,"Vegetarian, Gluten-free",$
+The Catbird Seat  ,"Nashville, Tennessee  ","Japanese,Mexican,American,Asian ",4.9,"Vegetarian, Vegan",$$
+City House  ,"Memphis, Tennessee  ","Mexican,Asian,Mediterranean,Chinese",4.7,"Halal,Vegan,Kosher",$$
+Barcelona Wine Bar  ,"Memphis, Tennessee  ","Asian,Mexican,American,Mediterranean  ",4.6,"Vegetarian ,Halal,Diary-Free",$$$
+Lockeland Table  ,"Nashville, Tennessee  ","Italian,European,Asian,Indian ",4.5,"Halal,Vegan,Kosher",$$
+Etch  ,"Nashville, Tennessee  ","Italian,European,American,Chinese  ",4.7,"Halal,Vegan,Kosher",$$
+Hattie B’s Hot Chicken  ,"Memphis, Tennessee  ","Asian,Italian,Indian,Chinese ",4.3,"Halal,Vegan,Kosher",$
+Prince’s Hot Chicken  ,"Nashville, Tennessee  ","Mediterranean,European,Japanese",4.4,"Vegetarian ,Halal,Diary-Free",$$$
+AMOT Eatery  ,"Memphis, Tennessee  ","Mediterranean,American,Indian,Chinese",4.2,"Vegetarian ,Halal,Diary-Free",$$
+The Southern Steak & Oyster,Memphis Tennessee,"Mediterranean,European,Japanese",4.5,Gluten-free,$
+Takashi,"Salt Lake City, Utah","Japanese,Asian,Chinese",4.6,Nut-free,$$$
+Sapa Sushi Bar & Asian Grill,"Salt Lake City, Utah","Asian,Mexican,American",4.4,Vegetarian,$$
+Bombay House,"Provo, Utah","Indian,Chinese,Japanese",4.7,Vegetarian,$$
+Ganesh Indian Cuisine,"Salt Lake City, Utah","Indian,Japanese,Chinese",4.5,Halal,$$
+Red Fort,"Park City, Utah","Indian,Japanese,Italian",4.3,Vegetarian,$$$
+Hong Kong Tea House,"Salt Lake City, Utah","Chinese,Asian,European",4.2,Nut-free,$
+OMBU Hot Pot,"Salt Lake City, Utah","Asian,Japanese,Mediterranean",4.5,Vegan,$$
+Mazza,"Salt Lake City, Utah","Mediterranean,European",4.6,Vegetarian,$$
+Meditrina,"Salt Lake City, Utah","Mediterranean,Italian,European",4.4,Gluten-free,$$$
+Café Madrid,"Salt Lake City, Utah","European,Italian,Mediterranean",4.5,Vegetarian,$$
+The Rose Establishment,"Salt Lake City, Utah","European,Chinese,Japanese",4.3,Vegan,$$
+Zest Kitchen & Bar,"Salt Lake City, Utah","American,Asian,Mediterranean,Italian",4.6,Vegan,$$$
+Current Fish & Oyster,"Salt Lake City, Utah","Mexican,Asian,Chinese",4.5,Gluten-free,$$
+Finca,"Salt Lake City, Utah","European,Italian,Mediterranean",4.7,Vegetarian,$$
+Trestle Tavern,"Park City, Utah","Italian,European,Mediterranean",4.4,Vegetarian,$$
+Uchi,"Houston, Texas","Japanese,Asian,Chinese",4.7,Nut-free,$$$
+Comedor,"Austin, Texas","Asian,Mexican,American",4.6,Vegetarian,$$$
+Suerte,"Austin, Texas","Indian,Chinese,Japanese",4.8,Gluten-free,$$$
+Kemuri Tatsu-ya,"Dallas, Texas","Indian,Japanese,Chinese",4.5,Dairy-free,$$
+Tatsu-Ya,"Austin, Texas","Indian,Japanese,Italian",4.7,Vegan,$$
+Madhu's,"Houston, Texas","Chinese,Asian,European",4.3,Halal,$$
+Bombay Brasserie,"Houston, Texas","Asian,Japanese,Mediterranean",4.4,Vegetarian,$$
+Musaafer,"Houston, Texas","Mediterranean,European",4.6,Kosher,$$$
+Szechuan House,"Austin, Texas","Mediterranean,Italian,European",4.2,Nut-free,$
+Wu Chow,"Austin, Texas","European,Italian,Mediterranean",4.5,Vegetarian,$$
+Pepper Twins,"Houston, Texas","European,Chinese,Japanese",4.3,Vegan,$$
+Olive & Finch,"Dallas, Texas","American,Asian,Mediterranean,Italian",4.4,Vegetarian,$$
+Café Mediterranean,"Houston, Texas","Mexican,Asian,Chinese",4.5,Gluten-free,$$
+Helen Greek Food and Wine,"Houston, Texas","European,Italian,Mediterranean",4.6,Vegetarian,$$$
+Emmer & Rye,"Austin, Texas","Italian,European,Mediterranean",4.7,Vegan,$$$
+Barley Swine,"Austin, Texas","European,Italian,Mediterranean",4.8,Vegetarian,$$$
+Otoko,"Austin, Texas","European,Chinese,Japanese",4.9,Nut-free,$$$
+Tsuke Edomae,"Austin, Texas","American,Asian,Mediterranean,Italian",4.6,Dairy-free,$$
+Tarka Indian Kitchen,"Austin, Texas","Mexican,Asian,Chinese",4.2,Vegetarian,$
+Guru's,"Dallas, Texas","European,Italian,Mediterranean",4.3,Halal,$$
+Dimassi's,"Houston, Texas","Italian,European,Mediterranean",4.4,Vegan,$$
+Fadi's,"Houston, Texas","Japanese,Mexican,American,Asian ",4.5,Vegetarian,$$
+Epicure Café,"Dallas, Texas","Mexican,Asian,Mediterranean,Chinese",4.3,Gluten-free,$$
+Bella Green,"Dallas, Texas","Asian,Mexican,American,Mediterranean  ",4.4,Vegan,$$
+The Beer Plant,"Austin, Texas","Italian,European,Asian,Indian ",4.5,Vegetarian,$$
+Honey Road  ,"Burlington, Vermont  ","Mediterranean,American,Italian",4.7,"Vegetarian, Vegan  ",$$$  
+Pingala Café  ,"Burlington, Vermont  ","Mediterranean,American,Italian",4.6,Vegan  ,$$  
+Sushi Yoshi  ,"Brattleboro, Vermont  ","Japanese,Asian,Indian,Mexican",4.4,Nut-Free  ,$$  
+Sherpa Kitchen  ,"Burlington, Vermont  ","Mexican,American,Japanese",4.5,Vegetarian  ,$$  
+The Friendly Toast  ,"Burlington, Vermont  ","Italian,European,Asian,Indian ",4.3,"Vegetarian,Halal  ",$$  
+American Flatbread  ,"Burlington, Vermont  ","Mediterranean,American,Italian",4.5,"Vegetarian, Gluten-Free  ",$$  
+Bistro de Margot  ,"Burlington, Vermont  ","European,Chinese,Japanese,Indian",4.8,Dairy-Free  ,$$$  
+The Silver Plate  ,"Montpelier, Vermont  ","Italian,European,Chinese",4.4,Vegetarian  ,$$  
+Taj-e-India  ,"South Burlington, Vermont  ","Indian,Asian,Chinese,European",4.2,"Vegetarian, Vegan  ",$$  
+Hong's Chinese Dumplings  ,"Burlington, Vermont  ","Mediterranean,Italian,Japanese,Indian",4.1,Nut-Free  ,$  
+Daily Planet  ,"Burlington, Vermont  ","Japanese,Mexican,American,Asian ",4.5,"Vegetarian,Kosher  ",$$  
+The Mad Taco  ,"Waitsfield, Vermont  ","Mexican, Asian,American,Japanese",4.3,Vegetarian  ,$  
+Juniper Bar at Hotel Vermont  ,"Burlington, Vermont  ","Mexican,Asian,Mediterranean,Chinese",4.6,Gluten-Free  ,$$$  
+Pizzeria Verità  ,"Burlington, Vermont  ","Italian,Mexican,European,Indian",4.7,"Vegetarian, Vegan  ",$$  
+The Skinny Pancake,"Burlington, Vermont","Chinese,Asian,European,Mediterranean",4.4,Vegetarian,$$
+Mama J's Kitchen  ,"Richmond, Virginia  ","Mediterranean,American,Italian",4.7,"Vegetarian, Vegan  ",$$$  
+Sushi King  ,"Arlington, Virginia  ","Mediterranean,American,Italian",4.6,Vegan  ,$$  
+Passage to India  ,"Virginia Beach, Virginia  ","Japanese,Asian,Indian,Mexican",4.4,Nut-Free  ,$$  
+Peter Chang  ,"Arlington, Virginia  ","Mexican,American,Japanese",4.5,Vegetarian  ,$$  
+Mezeh Mediterranean Grill  ,"Reston, Virginia  ","Italian,European,Asian,Indian ",4.3,"Vegetarian,Halal  ",$$  
+The Black Sheep  ,"Staunton, Virginia  ","Mediterranean,American,Italian",4.5,"Vegetarian, Gluten-Free  ",$$  
+Stella's Grocery  ,"Richmond, Virginia  ","European,Chinese,Japanese,Indian",4.8,Dairy-Free  ,$$$  
+Zynodoa  ,"Staunton, Virginia  ","Italian,European,Chinese",4.4,Dairy-Free  ,$$  
+The Roosevelt  ,"Richmond, Virginia  ","Indian,Asian,Chinese,European",4.2,Dairy-Free  ,$$  
+Nazim Mediterranean Food  ,"Fairfax, Virginia  ","Mediterranean,Italian,Japanese,Indian",4.1,Nut-Free  ,$  
+Akida Japanese Restaurant  ,"Virginia Beach, Virginia  ","Japanese,Mexican,American,Asian ",4.5,"Vegetarian,Kosher  ",$$  
+Ming's Chinese Restaurant  ,"Charlottesville, Virginia  ","Mexican, Asian,American,Japanese",4.3,Vegetarian  ,$  
+La Bella Italia  ,"Alexandria, Virginia  ","Mexican,Asian,Mediterranean,Chinese",4.6,Gluten-Free  ,$$$  
+Taco Bamba  ,"Falls Church, Virginia  ","Italian,Mexican,European,Indian",4.7,"Vegetarian, Vegan  ",$$  
+The Vegan Nest  ,"Norfolk, Virginia ","Chinese,Asian,European,Mediterranean",4.4,Vegetarian,$$
+Canlis,"Seattle, Washington","Mexican,American",4.8,Vegetarian ,$$$$
+Tilth,"Seattle, Washington","Mexican,American",4.6,"Vegetarian, Vegan",$$$
+Kashiba,"Seattle, Washington","Asian,Chinese,Japanese",4.7,Nut-Free,$$$
+Kedai Makan,"Seattle, Washington","Asian,Chinese,Japanese",4.5,Halal,$$
+Din Tai Fung,"Bellevue, Washington",Chinese,4.6,Nut-Free,$$
+Archipelago,"Seattle, Washington","Asian,Chinese,Japanese",4.4,"Halal,Diary-Free",$$
+Mamnoon,"Seattle, Washington",Mediterranean,4.3,Vegetarian,$$$
+The Pink Door,"Seattle, Washington","Italian,European",4.5,"Vegetarian, Gluten-Free",$$
+Marination Ma Kai,"Seattle, Washington","Italian,European",4.4,"Halal,Diary-Free",$
+Stateside,"Seattle, Washington","Asian,Chinese,Japanese",4.5,Vegetarian,$$
+Bar del Corso,"Seattle, Washington",Mediterranean,4.6,Vegetarian,$$
+Lark,"Seattle, Washington","Mexican,American",4.7,Vegetarian ,$$$
+Spinasse,"Seattle, Washington","Italian,Mexican,American",4.6,Vegetarian,$$$
+Altura,"Seattle, Washington","Italian,European,Mediterranean",4.8,Vegetarian ,$$
+San Fermo,"Seattle, Washington","Italian,European",4.5,Vegetarian,$$
+Manolin,"Seattle, Washington","Asian,Chinese,Japanese",4.5,"Halal,Diary-Free",$$
+Walrus and the Carpenter,"Seattle, Washington","Asian,Chinese,Japanese,Mediterranean",4.7,"Halal,Diary-Free",$$
+Taurus Ox,"Seattle, Washington","Italian,European,Mediterranean",4.4,"Halal,Diary-Free",$$
+Fonda La Catrina,"Seattle, Washington","Mexican,American,Mediterranean",4.3,Vegetarian,$$
+Rione XIII,"Seattle, Washington","Italian,European,Mexican,American",4.5,Vegetarian,$$
+Lola's,"Charleston, West Virginia","Asian,Chinese,Japanese",4.5,Vegetarian,$$
+Tricky Fish,"Charleston, West Virginia",Mediterranean,4.3,"Vegetarian,Halal,Diary-Free",$$
+Bluegrass Kitchen,"Charleston, West Virginia","Italian,European",4.4,Vegetarian,$
+1010 Bridge,"Charleston, West Virginia","Italian,European",4.6,Gluten-Free,$$$
+Brickside Brewing,"Charleston, West Virginia","Asian,Chinese,Japanese",4.2,"Halal,Diary-Free",$$
+Cafe Cimino,"Sutton, West Virginia",Mediterranean,4.5,"Vegetarian,Kosher",$$$
+The Chop House,"Charleston, West Virginia","Mexican,American",4.4,"Halal,Diary-Free",$$
+Pies & Pints,"Fayetteville, West Virginia","Italian,Mexican,American",4.5,"Vegetarian,Halal,Diary-Free",$$
+Mountain State Brewing Co.,"Morgantown, West Virginia","Italian,European,Mediterranean",4.3,"Halal,Diary-Free",$
+Muriale's,"Fairmont, West Virginia","Italian,European",4.5,"Vegetarian,Kosher",$
+Tudor's Biscuit World,"Various, West Virginia","Asian,Chinese,Japanese",4.2,"Halal,Diary-Free",$$
+Secret Sandwich Society,"Fayetteville, West Virginia","Asian,Chinese,Japanese,Mediterranean",4.6,"Vegetarian,Halal,Diary-Free",$$
+Cafe One Ten,"Morgantown, West Virginia","Italian,European,Mediterranean",4.4,Vegetarian,$$
+Sargasso,"Morgantown, West Virginia","Mexican,American,Mediterranean",4.3,"Halal,Diary-Free",$$$$
+The Greenbrier Dining Room,"White Sulphur Springs, West Virginia","Italian,European,Mexican,American",4.7,Vegetarian ,$$$
+Odd Duck  ,"Milwaukee, Wisconsin  ","Italian,European,Mediterranean",4.6,Vegetarian,$$$  
+Sanford  ,"Milwaukee, Wisconsin  ","Mexican,American,Mediterranean",4.8,Vegetarian,$$$$  
+Buckley's Restaurant & Bar  ,"Madison, Wisconsin  ","Italian,European,Mexican,American",4.4,Vegetarian,$$  
+Amilinda  ,"Milwaukee, Wisconsin  ","Asian,Chinese,Japanese",4.7,"Vegetarian,Halal,Diary-Free",$$$  
+The Vanguard  ,"Milwaukee, Wisconsin  ",Mediterranean,4.5,Vegetarian,$$  
+EE-Sane  ,"Madison, Wisconsin  ","Italian,European",4.3,Gluten-Free,$  
+King & I Thai Restaurant  ,"Madison, Wisconsin  ","Italian,European",4.2,"Halal,Diary-Free",$$  
+Maharaja  ,"Madison, Wisconsin  ","Asian,Chinese,Japanese",4.5,"Vegetarian,Kosher",$$  
+Bombay Sweets  ,"Madison, Wisconsin  ",Mediterranean,4.1,"Halal,Diary-Free",$  
+Saffron  ,"Madison, Wisconsin  ","Mexican,American",4.4,"Vegetarian,Halal,Diary-Free",$$  
+Xankia  ,"Madison, Wisconsin  ","Italian,Mexican,American",4,"Halal,Diary-Free",$  
+Fusion Cafe  ,"Madison, Wisconsin  ","Italian,European,Mediterranean",4.3,"Vegetarian,Kosher",$$  
+Osteria Papavero  ,"Madison, Wisconsin  ","Italian,European",4.6,"Halal,Diary-Free",$$$  
+Cento  ,"Madison, Wisconsin  ","Asian,Chinese,Japanese",4.5,"Vegetarian,Halal,Diary-Free",$$$  
+Red Lion Pub  ,"Milwaukee, Wisconsin  ","Asian,Chinese,Japanese,Mediterranean",4.2,Vegetarian,$$  
+The Great Dane Pub  ,"Madison, Wisconsin  ","Italian,European,Mediterranean",4.3,"Halal,Diary-Free",$$  
+Taqueria Buenavista  ,"Milwaukee, Wisconsin  ","Mexican,American,Mediterranean",4.4,Vegetarian ,$  
+Canteen  ,"Milwaukee, Wisconsin  ","Italian,European,Mexican,American",4.5,Vegetarian,$$  
+Al Pastor  ,"Milwaukee, Wisconsin  ","Italian,European,Mexican,American",4.3,"Halal,Diary-Free",$  
+Merchant  ,"Milwaukee, Wisconsin ","Italian,European,Mexican,American",4.4,Vegetarian ,$$  
+The Local  ,"Jackson, Wyoming  ",Mediterranean,4.5,Vegetarian  ,$$$  
+Persephone Bakery  ,"Jackson, Wyoming  ","Mexican,American",4.7,Vegan  ,$$  
+Bin22  ,"Jackson, Wyoming  ","Italian,Mexican,American",4.6,Vegetarian  ,$$$  
+Gather  ,"Jackson, Wyoming  ","Italian,European,Mediterranean",4.4,Gluten-Free  ,$$$  
+Teton Thai  ,"Jackson, Wyoming  ","Italian,European",4.8,Nut-Free  ,$$  
+Nora's Fish Creek Inn  ,"Wilson, Wyoming  ","Asian,Chinese,Japanese",4.5,Vegetarian  ,$$  
+Snake River Grill  ,"Jackson, Wyoming  ","Asian,Chinese,Japanese,Mediterranean",4.7,Vegetarian  ,$$$  
+The Kitchen  ,"Jackson, Wyoming  ","Italian,European,Mediterranean",4.5,Vegetarian  ,$$  
+Cafe Genevieve  ,"Jackson, Wyoming  ","Mexican,American,Mediterranean",4.6,Vegetarian  ,$$  
+Teton Tiger  ,"Jackson, Wyoming  ","Italian,European,Mexican,American",4.4,Vegan  ,$$$  
+King Sushi  ,"Jackson, Wyoming  ","Italian,European,Mexican,American",4.3,Nut-Free  ,$$$  
+The Bunnery Bakery & Restaurant  ,"Jackson, Wyoming  ","Italian,European,Mexican,American",4.5,Vegetarian  ,$$  
+Sweetwater Restaurant  ,"Jackson, Wyoming  ","Italian,European,Mediterranean",4.4,Vegetarian  ,$$  
+Gannett Grill  ,"Lander, Wyoming  ","Mexican,American,Mediterranean",4.3,Vegetarian  ,$$  
+The Rose ,"Jackson, Wyoming ","Italian,European,Mexican,American",4.5,Vegetarian ,$$$

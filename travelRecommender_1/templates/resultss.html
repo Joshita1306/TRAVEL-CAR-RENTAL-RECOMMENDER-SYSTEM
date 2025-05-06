@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Travel Recommendations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary: #3498db;  /* Main blue */
+            --secondary: #2980b9;  /* Darker blue */
+            --accent: #5dade2;  /* Lighter blue */
+            --light: #ebf5fb;  /* Very light blue */
+            --dark: #1a5276;  /* Very dark blue */
+            --success: #2e7d32;
+            --warning: #ff8f00;
+            --error: #e74c3c;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+            background-image: linear-gradient(135deg, #ebf5fb 0%, #d4e6f1 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 10px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        h1 {
+            color: var(--secondary);
+            text-align: center;
+            margin-bottom: 15px;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            position: relative;
+            padding-bottom: 15px;
+        }
+        
+        h1::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            border-radius: 2px;
+        }
+        
+        .search-info {
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+            color: #455a64;
+            background: rgba(52, 152, 219, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .search-info strong {
+            color: var(--secondary);
+            font-weight: 600;
+        }
+        
+        .results-section {
+            margin-bottom: 50px;
+            position: relative;
+            padding: 30px;
+            border-radius: 12px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: rgba(255,255,255,0.8);
+            background-blend-mode: overlay;
+        }
+        
+        .restaurants-section {
+            background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80');
+        }
+        
+        .hotels-section {
+            background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80');
+        }
+        
+        .attractions-section {
+            background-image: url('https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&h=400&q=80');
+        }
+        
+        .section-title {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 8px;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: rgba(255,255,255,0.9);
+            padding: 10px 15px;
+            border-radius: 8px;
+            display: inline-block;
+        }
+        
+        .recommendations {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+            position: relative;
+        }
+        
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+        }
+        
+        .card-content {
+            padding: 20px;
+        }
+        
+        .card h3 {
+            margin: 0 0 10px 0;
+            color: var(--secondary);
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .card p {
+            margin: 8px 0;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        
+        .card strong {
+            color: var(--secondary);
+            font-weight: 500;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: var(--success);
+            font-size: 1.1rem;
+        }
+        
+        .rating {
+            color: var(--warning);
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+        }
+        
+        .rating i {
+            font-size: 0.9rem;
+        }
+        
+        .amenities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 15px 0 5px;
+        }
+        
+        .amenity-tag {
+            background: rgba(52, 152, 219, 0.1);
+            color: var(--primary);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .amenity-tag i {
+            font-size: 0.7rem;
+        }
+        
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 40px;
+            transition: all 0.3s;
+            font-weight: 500;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+        }
+        
+        .no-results {
+            text-align: center;
+            padding: 30px;
+            color: #7f8c8d;
+            font-style: italic;
+            background: rgba(0,0,0,0.02);
+            border-radius: 8px;
+            border: 1px dashed rgba(0,0,0,0.1);
+        }
+        
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .select-btn {
+            background: rgba(52, 152, 219, 0.1);
+            color: var(--primary);
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: 1px solid var(--primary);
+            cursor: pointer;
+        }
+        
+        .select-btn:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .select-btn.selected {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .select-btn.max-selected {
+            background: rgba(231, 76, 60, 0.1);
+            color: var(--error);
+            border-color: var(--error);
+            cursor: not-allowed;
+        }
+        
+        .select-btn.max-selected:hover {
+            background: rgba(231, 76, 60, 0.1);
+            color: var(--error);
+        }
+        
+        .selection-summary {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .selection-summary h3 {
+            margin-top: 0;
+            color: var(--secondary);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .selection-summary ul {
+            list-style-type: none;
+            padding: 0;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 15px 0 0;
+        }
+        
+        .selection-summary li {
+            margin-bottom: 8px;
+            padding: 12px;
+            background: white;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        .selection-count {
+            background: var(--primary);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+        
+        .confirm-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 12px 24px;
+            border-radius: 50px;
+            margin-top: 15px;
+            font-weight: 500;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+            transition: all 0.3s;
+            width: 100%;
+        }
+        
+        .confirm-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.4);
+        }
+        
+        .remove-btn {
+            background: rgba(231, 76, 60, 0.1);
+            color: #e74c3c;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            border: 1px solid #e74c3c;
+            cursor: pointer;
+            margin-left: 10px;
+            transition: all 0.2s;
+        }
+        
+        .remove-btn:hover {
+            background: #e74c3c;
+            color: white;
+        }
+        
+        .selection-category {
+            font-weight: bold;
+            color: var(--secondary);
+            margin: 15px 0 5px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid rgba(52, 152, 219, 0.3);
+        }
+        
+        .max-selections-message {
+            color: var(--error);
+            font-size: 0.9rem;
+            margin-top: 5px;
+            display: none;
+        }
+        
+        /* Confirmation Modal Styles */
+        .confirmation-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        
+        .modal-content h3 {
+            margin-top: 0;
+            color: var(--secondary);
+            font-size: 1.5rem;
+        }
+        
+        .modal-selection-list {
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 20px 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        
+        .modal-selection-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .modal-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .modal-confirm-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .modal-confirm-btn:hover {
+            background: var(--secondary);
+        }
+        
+        .modal-cancel-btn {
+            background: #e0e0e0;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .modal-cancel-btn:hover {
+            background: #d0d0d0;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+                margin: 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .recommendations {
+                grid-template-columns: 1fr;
+            }
+            
+            .results-section {
+                padding: 15px;
+            }
+            
+            .modal-buttons {
+                flex-direction: column;
+            }
+            
+            .modal-confirm-btn, .modal-cancel-btn {
+                width: 100%;
+            }
+        }
+	 .max-message {
+    display: none;
+    color: red;
+    margin-top: 5px;
+}
+.max-selected {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Your Personalized Recommendations</h1>
+        <div class="search-info">
+            Showing results for <strong>{{ user_data.destination }}</strong>.
+        </div>
+        
+        <!-- Selection Summary -->
+        <div class="selection-summary">
+            <h3>Your Selections <span id="total-selections" class="selection-count">0</span></h3>
+            <ul id="selection-list">
+                <li>No selections made yet</li>
+            </ul>
+            <button class="confirm-btn" id="confirm-selections">Confirm Selections & Proceed to Payment</button>
+        </div>
+        
+        <!-- Restaurants Section -->
+        <div class="results-section restaurants-section">
+            <h2 class="section-title"><i class="fas fa-utensils"></i> Top Restaurants</h2>
+            <p class="max-selections-message" id="restaurant-max-message">Maximum 3 restaurants selected</p>
+            {% if restaurants %}
+            <div class="recommendations">
+                {% for restaurant in restaurants[:6] %}
+                <div class="card">
+                    <div class="card-content">
+                        <h3>{{ restaurant.get('Name', restaurant.get('name', 'Restaurant')) }}</h3>
+                        <p><strong>Cuisine:</strong> {{ restaurant.get('Type', restaurant.get('cuisine', 'Various')) }}</p>
+                        {% if restaurant.get('Price_Range') %}
+                        <p><strong>Price Range:</strong> <span class="price">{{ restaurant.Price_Range }}</span></p>
+                        {% endif %}
+                        <div class="card-footer">
+                            {% if restaurant.get('Rating') %}
+                            <div><strong>Rating:</strong> <span class="rating"><i class="fas fa-star"></i>{{ restaurant.Rating }}</span></div>
+                            {% endif %}
+                            <button class="select-btn" data-type="restaurant" data-id="{{ restaurant.id }}" data-name="{{ restaurant.get('Name', restaurant.get('name', 'Restaurant')) }}">Select</button>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="no-results">No restaurant recommendations found matching your criteria.</div>
+            {% endif %}
+        </div>
+        
+        <!-- Hotels Section -->
+        <div class="results-section hotels-section">
+            <h2 class="section-title"><i class="fas fa-hotel"></i> Hotels & Stays</h2>
+            <p class="max-selections-message" id="hotel-max-message">Maximum 3 hotels selected</p>
+            {% if hotels %}
+            <div class="recommendations">
+                {% for hotel in hotels[:6] %}
+                <div class="card">
+                    <div class="card-content">
+                        <h3>{{ hotel.get('hotel_name', hotel.get('hotel_name', 'Hotel')) }}</h3>
+                        <p><strong>Price:</strong> <span class="price">${{ hotel.price }}</span> per night</p>
+                        {% if hotel.get('amenities') %}
+                        <div class="amenities">
+                            {% for amenity in hotel.amenities.split(',') %}
+                            <span class="amenity-tag"><i class="fas fa-check"></i>{{ amenity.strip() }}</span>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                        <div class="card-footer">
+                            {% if hotel.get('rating') %}
+                            <div><strong>Rating:</strong> <span class="rating"><i class="fas fa-star"></i>{{ hotel.rating }}</span></div>
+                            {% endif %}
+                            <button class="select-btn" data-type="hotel" data-id="{{ hotel.id }}" data-name="{{ hotel.get('hotel_name', 'Hotel') }}">Select</button>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="no-results">No hotel recommendations found matching your criteria.</div>
+            {% endif %}
+        </div>
+        
+        <!-- Attractions Section -->
+        <div class="results-section attractions-section">
+            <h2 class="section-title"><i class="fas fa-landmark"></i> Must-See Attractions</h2>
+            <p class="max-selections-message" id="attraction-max-message">Maximum 3 attractions selected</p>
+            {% if attractions %}
+            <div class="recommendations">
+                {% for attraction in attractions[:6] %}
+                <div class="card">
+                    <div class="card-content">
+                        <h3>{{ attraction.get('name', attraction.get('Name', 'Attraction')) }}</h3>
+                        <!--<p><strong>Type:</strong> {{ attraction.get('category', attraction.get('type', 'Landmark')) }}</p>-->
+                        {% if attraction.get('price') %}
+                        <p><strong>Price:</strong> <span class="price">${{ attraction.price }}</span></p>
+                        {% endif %}
+                        <div class="card-footer">
+                            {% if attraction.get('rating') %}
+                            <div><strong>Rating:</strong> <span class="rating"><i class="fas fa-star"></i>{{ attraction.rating }}</span></div>
+                            {% endif %}
+                            <button class="select-btn" data-type="attraction" data-id="{{ attraction.id }}" data-name="{{ attraction.get('name', 'Attraction') }}">Select</button>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="no-results">No attraction recommendations found matching your criteria.</div>
+            {% endif %}
+        </div>
+        
+        <center>
+            <a href="/" class="back-btn"><i class="fas fa-arrow-left"></i> Plan Another Trip</a>
+        </center>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div class="confirmation-modal" id="confirmation-modal">
+        <div class="modal-content">
+            <h3><i class="fas fa-check-circle"></i> Confirm Your Selections</h3>
+            <ul class="modal-selection-list" id="modal-selection-list">
+                <!-- Items will be populated by JavaScript -->
+            </ul>
+            <div class="modal-buttons">
+                <button class="modal-cancel-btn" id="cancel-confirm-btn">Cancel</button>
+                <button class="modal-confirm-btn" id="final-confirm-btn">Confirm & Proceed to Payment</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Only the modified script section is shown - all other HTML remains exactly the same -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const MAX_SELECTIONS_PER_CATEGORY = 3;
+        const selections = {
+            hotel: [],
+            attraction: [],
+            restaurant: []
+        };
+        
+        // Update selection summary
+        function updateSummary() {
+            const summaryList = document.getElementById('selection-list');
+            summaryList.innerHTML = '';
+            
+            let totalSelections = 0;
+            
+            // Count total selections
+            for (const type of Object.keys(selections)) {
+                totalSelections += selections[type].length;
+            }
+            
+            // Update total count display
+            document.getElementById('total-selections').textContent = totalSelections;
+            
+            if (totalSelections === 0) {
+                summaryList.innerHTML = '<li>No selections made yet</li>';
+                return;
+            }
+            
+            // Add selections by category
+            for (const [type, items] of Object.entries(selections)) {
+                if (items.length > 0) {
+                    const categoryHeader = document.createElement('div');
+                    categoryHeader.className = 'selection-category';
+                    categoryHeader.textContent = `${type.charAt(0).toUpperCase() + type.slice(1)} (${items.length})`;
+                    summaryList.appendChild(categoryHeader);
+                    
+                    items.forEach(item => {
+                        const li = document.createElement('li');
+                        li.innerHTML = `
+                            <span>${item.name}</span>
+                            <button class="remove-btn" data-type="${type}" data-id="${item.id}">Remove</button>
+                        `;
+                        summaryList.appendChild(li);
+                    });
+                }
+            }
+        }
+        
+        // Update select buttons state based on current selections
+        function updateSelectButtons() {
+            // Reset all buttons first
+            document.querySelectorAll('.select-btn').forEach(button => {
+                button.classList.remove('selected', 'max-selected');
+                button.disabled = false;
+            });
+            
+            // Update max selection messages
+            document.getElementById('restaurant-max-message').style.display = 'none';
+            document.getElementById('hotel-max-message').style.display = 'none';
+            document.getElementById('attraction-max-message').style.display = 'none';
+            
+            // Mark selected items and handle max selections
+            for (const [type, items] of Object.entries(selections)) {
+                // Mark selected items
+                items.forEach(item => {
+                    const button = document.querySelector(`.select-btn[data-type="${type}"][data-id="${item.id}"]`);
+                    if (button) {
+                        button.classList.add('selected');
+                    }
+                });
+                
+                // Handle max selections for this category
+                if (items.length >= MAX_SELECTIONS_PER_CATEGORY) {
+                    // Show max selection message
+                    document.getElementById(`${type}-max-message`).style.display = 'block';
+                    
+                    // Disable unselected buttons in this category
+                    document.querySelectorAll(`.select-btn[data-type="${type}"]:not(.selected)`).forEach(button => {
+                        button.classList.add('max-selected');
+                        button.disabled = true;
+                    });
+                }
+            }
+        }
+        
+        // Handle select buttons - THIS IS THE KEY FIXED SECTION
+        document.querySelectorAll('.select-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                const type = this.dataset.type;
+                const id = this.dataset.id;
+                const name = this.dataset.name;
+                
+                // Validate data-type is one of our expected types
+                if (!['hotel', 'restaurant', 'attraction'].includes(type)) {
+                    console.error('Invalid data-type:', type);
+                    return;
+                }
+                
+                // Check if item is already selected
+                const index = selections[type].findIndex(item => item.id === id);
+                
+                if (index === -1) {
+                    // Add to selections if not at max
+                    if (selections[type].length < MAX_SELECTIONS_PER_CATEGORY) {
+                        selections[type].push({ id, name });
+                    } else {
+                        alert(`Maximum ${MAX_SELECTIONS_PER_CATEGORY} ${type}s allowed`);
+                        return;
+                    }
+                } else {
+                    // Remove from selections
+                    selections[type].splice(index, 1);
+                }
+                
+                updateSummary();
+                updateSelectButtons();
+            });
+        });
+        
+        // [Rest of your existing code remains exactly the same...]
+        // Handle remove buttons in summary
+        document.getElementById('selection-list').addEventListener('click', function(e) {
+            if (e.target.classList.contains('remove-btn')) {
+                const type = e.target.dataset.type;
+                const id = e.target.dataset.id;
+                
+                // Remove from selections array
+                selections[type] = selections[type].filter(item => item.id !== id);
+                
+                updateSummary();
+                updateSelectButtons();
+            }
+        });
+        
+        // Show confirmation modal
+        document.getElementById('confirm-selections').addEventListener('click', function() {
+            let totalSelections = selections.hotel.length + selections.attraction.length + selections.restaurant.length;
+            
+            if (totalSelections === 0) {
+                alert('Please select at least one option from any category');
+                return;
+            }
+            
+            // Populate modal with selections
+            const modalList = document.getElementById('modal-selection-list');
+            modalList.innerHTML = '';
+            
+            for (const [type, items] of Object.entries(selections)) {
+                if (items.length > 0) {
+                    const categoryHeader = document.createElement('div');
+                    categoryHeader.style.fontWeight = 'bold';
+                    categoryHeader.style.margin = '10px 0 5px';
+                    categoryHeader.textContent = `${type.charAt(0).toUpperCase() + type.slice(1)}:`;
+                    modalList.appendChild(categoryHeader);
+                    
+                    items.forEach(item => {
+                        const li = document.createElement('li');
+                        li.textContent = item.name;
+                        modalList.appendChild(li);
+                    });
+                }
+            }
+            
+            // Show modal
+            document.getElementById('confirmation-modal').style.display = 'flex';
+        });
+        
+        // Handle final confirmation
+        document.getElementById('final-confirm-btn').addEventListener('click', function() {
+                // Prepare the data to send
+                const selectionsData = {
+                    restaurants: selections.restaurant,
+                    hotels: selections.hotel,
+                    attractions: selections.attraction
+                };
+
+            // Here you would typically send the selections to your backend
+            console.log('Confirmed selections:', selections);
+            
+            // Store selections in localStorage to access on payment page
+            localStorage.setItem('travelSelections', JSON.stringify(selectionsData));
+            
+            // Redirect to payment page
+            window.location.href = "/pay";
+        });
+        
+        // Handle cancel confirmation
+        document.getElementById('cancel-confirm-btn').addEventListener('click', function() {
+            document.getElementById('confirmation-modal').style.display = 'none';
+        });
+        
+        // Close modal when clicking outside
+        document.getElementById('confirmation-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.style.display = 'none';
+            }
+        });
+    });
+</script>
+</body>
+</html>
