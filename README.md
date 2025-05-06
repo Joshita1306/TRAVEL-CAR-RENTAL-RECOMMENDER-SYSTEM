@@ -59,5 +59,16 @@ Access at:
 ```bash
 http://localhost:5000
 ```
-
-
+Car Rental System:
+Navigate to the folder:
+```bash
+cd car_rental_system
+```
+Run the app (change port if needed):
+```bash
+python app.py --port 5001
+```
+Access at:
+```bash
+http://localhost:5001
+```
