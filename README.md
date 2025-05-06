@@ -26,5 +26,23 @@ Both modules are powered by Flask and use structured datasets for recommendation
 1. Clone this repository:
    ```bash
    git clone https://github.com/Joshita1306/TRAVEL-CAR-RENTAL-RECOMMENDER-SYSTEM.git
+   
+📝 File Explanation
+Travel Recommender
+data/: Contains Excel and CSV files for attractions, hotels, and restaurants.
 
+templates/: HTML pages for user interaction (search, results, payment, confirmation).
 
+app.py: Main backend logic using Flask to serve and process recommendations.
+
+Car Rental System
+data/: CSV file with car listings and details.
+
+templates/: HTML pages for vehicle search, details, and confirmation.
+
+app.py: Flask backend for handling car rental logic.
+
+2.Navigate to the project folder:
+
+bash
+cd TRAVEL-CAR-RENTAL-RECOMMENDER-SYSTEM
